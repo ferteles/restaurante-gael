@@ -1,4 +1,4 @@
-import imgRectangle3 from "figma:asset/2652d39d1070a50d42015155a64100e6eef9b7b6.png";
+// import imgRectangle3 from "figma:asset/2652d39d1070a50d42015155a64100e6eef9b7b6.png";
 
 export function ContactSection() {
   return (
@@ -54,12 +54,8 @@ export function ContactSection() {
           </div>
         </div>
 
-        <div className="rounded-[2rem] overflow-hidden w-full aspect-[16/7] shadow-md">
-          <img
-            src={imgRectangle3}
-            alt="Mapa - Rua Ferreira de Araújo, Pinheiros"
-            className="w-full h-full object-cover"
-          />
+        <div className="rounded-[2rem] overflow-hidden w-full aspect-[16/7] shadow-md bg-gray-300 flex items-center justify-center text-gray-500">
+          Mapa - Rua Ferreira de Araújo, Pinheiros
         </div>
       </div>
     </section>

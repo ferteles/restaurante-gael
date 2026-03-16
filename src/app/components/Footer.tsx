@@ -1,5 +1,5 @@
 import svgPaths from "../../imports/svg-oj8mr5v7qc";
-import imgAmbientesMgl90352 from "figma:asset/87f75fe3a38195f980872b79b246775ca77996cf.png";
+// import imgAmbientesMgl90352 from "figma:asset/87f75fe3a38195f980872b79b246775ca77996cf.png";
 
 export function Footer() {
   const scrollTo = (id: string) => {
@@ -9,8 +9,8 @@ export function Footer() {
 
   return (
     <footer className="bg-[#019eac] relative overflow-hidden">
-      <div className="absolute inset-0 opacity-10 mix-blend-luminosity pointer-events-none">
-        <img src={imgAmbientesMgl90352} alt="" className="w-full h-full object-cover" />
+      <div className="absolute inset-0 opacity-10 mix-blend-luminosity pointer-events-none bg-gray-500">
+        {/* Background image placeholder */}
       </div>
 
       <div className="absolute inset-0 pointer-events-none overflow-hidden">

@@ -1,10 +1,10 @@
 import svgPaths from "../../imports/svg-oj8mr5v7qc";
-import imgAmbientesMgl89971 from "figma:asset/03ccc6c450dd4e7ba4decb6b928dbed4c86dd716.png";
-import imgAmbientesMgl90921 from "figma:asset/115941a322eb83f536c7d792de7cee0d36e49bc2.png";
-import imgAmbientes161 from "figma:asset/59df0a897c538205e19dc0152af3a940948cd95d.png";
-import imgAmbientesMgl90101 from "figma:asset/b25a3fcd0ec6db742faefc05b175c2d421a8a1aa.png";
-import imgAmbientesMgl90221 from "figma:asset/ebfe8871f15b5425125b04557ab3a2ad824609df.png";
-import imgAmbientesMgl90721 from "figma:asset/68461a05056834a0d2b68513b57847fcc63d002a.png";
+// import imgAmbientesMgl89971 from "figma:asset/03ccc6c450dd4e7ba4decb6b928dbed4c86dd716.png";
+// import imgAmbientesMgl90921 from "figma:asset/115941a322eb83f536c7d792de7cee0d36e49bc2.png";
+// import imgAmbientes161 from "figma:asset/59df0a897c538205e19dc0152af3a940948cd95d.png";
+// import imgAmbientesMgl90101 from "figma:asset/b25a3fcd0ec6db742faefc05b175c2d421a8a1aa.png";
+// import imgAmbientesMgl90221 from "figma:asset/ebfe8871f15b5425125b04557ab3a2ad824609df.png";
+// import imgAmbientesMgl90721 from "figma:asset/68461a05056834a0d2b68513b57847fcc63d002a.png";
 
 export function CasaSection() {
   const scrollTo = (id: string) => {
@@ -135,27 +135,27 @@ export function CasaSection() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
           <div className="flex flex-col gap-4 md:gap-5">
-            <div className="rounded-[2rem] overflow-hidden aspect-square">
-              <img src={imgAmbientesMgl90101} alt="Ambiente Gael" className="w-full h-full object-cover" />
+            <div className="rounded-[2rem] overflow-hidden aspect-square bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
+              Ambiente Gael
             </div>
-            <div className="rounded-[2rem] overflow-hidden aspect-[3/4]">
-              <img src={imgAmbientes161} alt="Ambiente Gael" className="w-full h-full object-cover" />
+            <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
+              Ambiente Gael
             </div>
-            <div className="rounded-[2rem] overflow-hidden aspect-square">
-              <img src={imgAmbientesMgl90721} alt="Ambiente Gael" className="w-full h-full object-cover" />
+            <div className="rounded-[2rem] overflow-hidden aspect-square bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
+              Ambiente Gael
             </div>
           </div>
           <div className="flex flex-col gap-4 md:gap-5">
-            <div className="rounded-[2rem] overflow-hidden" style={{ aspectRatio: "3/4" }}>
-              <img src={imgAmbientesMgl90221} alt="Ambiente Gael" className="w-full h-full object-cover" />
+            <div className="rounded-[2rem] overflow-hidden bg-gray-300 flex items-center justify-center text-gray-500 text-sm" style={{ aspectRatio: "3/4" }}>
+              Ambiente Gael
             </div>
-            <div className="rounded-[2rem] overflow-hidden aspect-square">
-              <img src={imgAmbientesMgl90921} alt="Ambiente Gael" className="w-full h-full object-cover" />
+            <div className="rounded-[2rem] overflow-hidden aspect-square bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
+              Ambiente Gael
             </div>
           </div>
           <div className="hidden md:flex flex-col gap-4 md:gap-5">
-            <div className="rounded-[2rem] overflow-hidden" style={{ aspectRatio: "3/5" }}>
-              <img src={imgAmbientesMgl89971} alt="Ambiente Gael" className="w-full h-full object-cover" />
+            <div className="rounded-[2rem] overflow-hidden bg-gray-300 flex items-center justify-center text-gray-500 text-sm" style={{ aspectRatio: "3/5" }}>
+              Ambiente Gael
             </div>
           </div>
         </div>

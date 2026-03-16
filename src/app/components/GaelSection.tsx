@@ -1,8 +1,8 @@
 import svgPaths from "../../imports/svg-oj8mr5v7qc";
-import imgAmbientesMgl90521 from "figma:asset/d845001a309e2c25808cef841fead86d04718935.png";
-import imgGaelMaio24611 from "figma:asset/00a31cc2f4b3008fdc21d9b81d394fb7ca6bf50e.png";
-import imgAmbientesMgl90352 from "figma:asset/87f75fe3a38195f980872b79b246775ca77996cf.png";
-import imgAmbientesMgl90951 from "figma:asset/16d90876ef4ea2a6fc4826aca659b58078dd42b0.png";
+// import imgAmbientesMgl90521 from "figma:asset/d845001a309e2c25808cef841fead86d04718935.png";
+// import imgGaelMaio24611 from "figma:asset/00a31cc2f4b3008fdc21d9b81d394fb7ca6bf50e.png";
+// import imgAmbientesMgl90352 from "figma:asset/87f75fe3a38195f980872b79b246775ca77996cf.png";
+// import imgAmbientesMgl90951 from "figma:asset/16d90876ef4ea2a6fc4826aca659b58078dd42b0.png";
 
 export function GaelSection() {
   return (
@@ -200,17 +200,17 @@ export function GaelSection() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <div className="rounded-[2.5rem] overflow-hidden aspect-[4/3]">
-            <img src={imgAmbientesMgl90521} alt="Ambiente Gael" className="w-full h-full object-cover" />
+          <div className="rounded-[2.5rem] overflow-hidden aspect-[4/3] bg-gray-300 flex items-center justify-center text-gray-500">
+            Imagem Ambiente Gael
           </div>
-          <div className="rounded-[2.5rem] overflow-hidden aspect-[4/3]">
-            <img src={imgGaelMaio24611} alt="Gael interior" className="w-full h-full object-cover" />
+          <div className="rounded-[2.5rem] overflow-hidden aspect-[4/3] bg-gray-300 flex items-center justify-center text-gray-500">
+            Imagem Gael Interior
           </div>
-          <div className="rounded-[2rem] overflow-hidden aspect-[4/3]">
-            <img src={imgAmbientesMgl90352} alt="Ambiente Gael" className="w-full h-full object-cover" />
+          <div className="rounded-[2rem] overflow-hidden aspect-[4/3] bg-gray-300 flex items-center justify-center text-gray-500">
+            Imagem Ambiente Gael
           </div>
-          <div className="rounded-[2rem] overflow-hidden aspect-[4/3]">
-            <img src={imgAmbientesMgl90951} alt="Ambiente Gael" className="w-full h-full object-cover" />
+          <div className="rounded-[2rem] overflow-hidden aspect-[4/3] bg-gray-300 flex items-center justify-center text-gray-500">
+            Imagem Ambiente Gael
           </div>
         </div>
       </div>
