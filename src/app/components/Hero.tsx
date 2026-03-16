@@ -1,5 +1,5 @@
-// import imgFraldinha1 from "figma:asset/b9881d13a823a6b975fc297ca9989bdc30e449fb.png";
-// import imgRisotoComMignonAug231 from "figma:asset/512fad10318337c01802eef32de27f9bb9d9c528.png";
+const imgFraldinha1 = "/images/unsplash/imgFraldinha1.jpg";
+const imgRisotoComMignonAug231 = "/images/unsplash/imgRisotoComMignonAug231.jpg";
 
 export function Hero() {
   const scrollTo = (id: string) => {
@@ -9,12 +9,12 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex flex-col overflow-hidden bg-gray-800">
-      {/* <div className="absolute inset-0 z-0">
-        <img src={imgFraldinha1} alt="" className="w-full h-full object-cover object-center" />
+      <div className="absolute inset-0 z-0">
+        <img src={imgFraldinha1} alt="Fraldinha" className="w-full h-full object-cover object-center" />
       </div>
       <div className="absolute inset-0 z-[1]">
-        <img src={imgRisotoComMignonAug231} alt="Prato do Gael" className="w-full h-full object-cover object-center" />
-      </div> */}
+        <img src={imgRisotoComMignonAug231} alt="Risoto com mignon" className="w-full h-full object-cover object-center" />
+      </div>
       <div className="absolute inset-0 z-[2] bg-[rgba(30,30,30,0.37)]" />
 
       <div className="relative z-10 flex flex-col items-center justify-center flex-1 text-center px-6 pb-24 pt-36">

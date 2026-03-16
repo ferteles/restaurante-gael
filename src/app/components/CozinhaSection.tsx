@@ -1,14 +1,14 @@
 import svgPaths from "../../imports/svg-oj8mr5v7qc";
-// import imgPizzas1971 from "figma:asset/29649a950c9393b5fa5b319de7bd2a45dd846a8a.png";
-// import imgSushi1 from "figma:asset/2cfff542d72d5e725fd832655d179855e39962b1.png";
-// import imgUramakiCaliforniaMenu1 from "figma:asset/5d41c507f0f1c31b4133ebac58d1a6bbeff612a4.png";
-// import imgMassasCardapio541 from "figma:asset/2a1b30d167ffcb627a2c14f446bc4591571cfc31.png";
-// import imgCarpaccioMenu661 from "figma:asset/15d6a8bb3dcaf5f8e22d96ab5b3e779c380bdb39.png";
-// import imgCevicheDeSalmaoComManga1 from "figma:asset/db2ac838fd531e0f8a48cd3779239aceb62270b2.png";
-// import imgEntradasMenu711 from "figma:asset/c511193293003f5d0dc821b85481dd9678ec20ea.png";
-// import imgPeixesCardapio501 from "figma:asset/169d724e489722e2f0235b28d8052fb21d531d57.png";
-// import imgMousseDeChocolatePadocaGael1 from "figma:asset/430dacbe78345314846bbcb5e5f0c983db3e4546.png";
-// import imgFraldinha1 from "figma:asset/b9881d13a823a6b975fc297ca9989bdc30e449fb.png";
+const imgPizzas1971 = "/images/unsplash/imgPizzas1971.jpg";
+const imgSushi1 = "/images/unsplash/imgSushi1.jpg";
+const imgUramakiCaliforniaMenu1 = "/images/unsplash/imgUramakiCaliforniaMenu1.jpg";
+const imgMassasCardapio541 = "/images/unsplash/imgMassasCardapio541.jpg";
+const imgCarpaccioMenu661 = "/images/unsplash/imgCarpaccioMenu661.jpg";
+const imgCevicheDeSalmaoComManga1 = "/images/unsplash/imgCevicheDeSalmaoComManga1.jpg";
+const imgEntradasMenu711 = "/images/unsplash/imgEntradasMenu711.jpg";
+const imgPeixesCardapio501 = "/images/unsplash/imgPeixesCardapio501.jpg";
+const imgMousseDeChocolatePadocaGael1 = "/images/unsplash/imgMousseDeChocolatePadocaGael1.jpg";
+const imgFraldinha1 = "/images/unsplash/imgFraldinha1.jpg";
 
 export function CozinhaSection() {
   return (
@@ -153,36 +153,36 @@ export function CozinhaSection() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
-          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
-            Sushi
+          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300">
+            <img src={imgSushi1} alt="Sushi" className="w-full h-full object-cover" />
           </div>
-          <div className="row-span-2 rounded-[2rem] overflow-hidden bg-gray-300 flex items-center justify-center text-gray-500 text-sm" style={{ aspectRatio: "2/3" }}>
-            Pizza
+          <div className="row-span-2 rounded-[2rem] overflow-hidden bg-gray-300" style={{ aspectRatio: "2/3" }}>
+            <img src={imgPizzas1971} alt="Pizza" className="w-full h-full object-cover" />
           </div>
-          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
-            Uramaki California
+          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300">
+            <img src={imgUramakiCaliforniaMenu1} alt="Uramaki California" className="w-full h-full object-cover" />
           </div>
-          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
-            Ceviche de Salmão
+          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300">
+            <img src={imgCevicheDeSalmaoComManga1} alt="Ceviche de Salmão com Manga" className="w-full h-full object-cover" />
           </div>
-          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
-            Massas
+          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300">
+            <img src={imgMassasCardapio541} alt="Massas" className="w-full h-full object-cover" />
           </div>
-          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
-            Entradas
+          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300">
+            <img src={imgEntradasMenu711} alt="Entradas" className="w-full h-full object-cover" />
           </div>
-          <div className="row-span-2 rounded-[2rem] overflow-hidden bg-gray-300 flex items-center justify-center text-gray-500 text-sm" style={{ aspectRatio: "2/3" }}>
-            Carpaccio
+          <div className="row-span-2 rounded-[2rem] overflow-hidden bg-gray-300" style={{ aspectRatio: "2/3" }}>
+            <img src={imgCarpaccioMenu661} alt="Carpaccio" className="w-full h-full object-cover" />
           </div>
-          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
-            Mousse de Chocolate
+          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300">
+            <img src={imgMousseDeChocolatePadocaGael1} alt="Mousse de Chocolate" className="w-full h-full object-cover" />
           </div>
-          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
-            Peixes
+          <div className="rounded-[2rem] overflow-hidden aspect-[3/4] bg-gray-300">
+            <img src={imgPeixesCardapio501} alt="Peixes" className="w-full h-full object-cover" />
           </div>
           <div className="hidden md:block" />
-          <div className="col-span-2 md:col-span-3 rounded-[2rem] overflow-hidden aspect-[16/6] bg-gray-300 flex items-center justify-center text-gray-500 text-sm">
-            Fraldinha — prato principal
+          <div className="col-span-2 md:col-span-3 rounded-[2rem] overflow-hidden aspect-[16/6] bg-gray-300">
+            <img src={imgFraldinha1} alt="Fraldinha" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
