@@ -1,5 +1,5 @@
-const imgFraldinha1 = "/images/unsplash/imgFraldinha1.jpg";
-const imgRisotoComMignonAug231 = "/images/unsplash/imgRisotoComMignonAug231.jpg";
+const imgFraldinha1 = "/images/figma/imgFraldinha1.png";
+const imgRisotoComMignonAug231 = "/images/figma/imgRisotoComMignonAug231.png";
 
 export function Hero() {
   const scrollTo = (id: string) => {

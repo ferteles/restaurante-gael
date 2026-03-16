@@ -1,14 +1,14 @@
 import svgPaths from "../../imports/svg-oj8mr5v7qc";
-const imgPizzas1971 = "/images/unsplash/imgPizzas1971.jpg";
-const imgSushi1 = "/images/unsplash/imgSushi1.jpg";
-const imgUramakiCaliforniaMenu1 = "/images/unsplash/imgUramakiCaliforniaMenu1.jpg";
-const imgMassasCardapio541 = "/images/unsplash/imgMassasCardapio541.jpg";
-const imgCarpaccioMenu661 = "/images/unsplash/imgCarpaccioMenu661.jpg";
-const imgCevicheDeSalmaoComManga1 = "/images/unsplash/imgCevicheDeSalmaoComManga1.jpg";
-const imgEntradasMenu711 = "/images/unsplash/imgEntradasMenu711.jpg";
-const imgPeixesCardapio501 = "/images/unsplash/imgPeixesCardapio501.jpg";
-const imgMousseDeChocolatePadocaGael1 = "/images/unsplash/imgMousseDeChocolatePadocaGael1.jpg";
-const imgFraldinha1 = "/images/unsplash/imgFraldinha1.jpg";
+const imgPizzas1971 = "/images/figma/imgPizzas1971.png";
+const imgSushi1 = "/images/figma/imgSushi1.png";
+const imgUramakiCaliforniaMenu1 = "/images/figma/imgUramakiCaliforniaMenu1.png";
+const imgMassasCardapio541 = "/images/figma/imgMassasCardapio541.png";
+const imgCarpaccioMenu661 = "/images/figma/imgCarpaccioMenu661.png";
+const imgCevicheDeSalmaoComManga1 = "/images/figma/imgCevicheDeSalmaoComManga1.png";
+const imgEntradasMenu711 = "/images/figma/imgEntradasMenu711.png";
+const imgPeixesCardapio501 = "/images/figma/imgPeixesCardapio501.png";
+const imgMousseDeChocolatePadocaGael1 = "/images/figma/imgMousseDeChocolatePadocaGael1.png";
+const imgFraldinha1 = "/images/figma/imgFraldinha1.png";
 
 export function CozinhaSection() {
   return (

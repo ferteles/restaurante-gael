@@ -1,8 +1,8 @@
 import svgPaths from "../../imports/svg-oj8mr5v7qc";
-const imgAmbientesMgl90521 = "/images/unsplash/imgAmbientesMgl90521.jpg";
-const imgGaelMaio24611 = "/images/unsplash/imgGaelMaio24611.jpg";
-const imgAmbientesMgl90352 = "/images/unsplash/imgAmbientesMgl90352.jpg";
-const imgAmbientesMgl90951 = "/images/unsplash/imgAmbientesMgl90951.jpg";
+const imgAmbientesMgl90521 = "/images/figma/imgAmbientesMgl90521.png";
+const imgGaelMaio24611 = "/images/figma/imgGaelMaio24611.png";
+const imgAmbientesMgl90352 = "/images/figma/imgAmbientesMgl90352.png";
+const imgAmbientesMgl90951 = "/images/figma/imgAmbientesMgl90951.png";
 
 export function GaelSection() {
   return (

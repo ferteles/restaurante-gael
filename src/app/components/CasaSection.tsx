@@ -1,10 +1,10 @@
 import svgPaths from "../../imports/svg-oj8mr5v7qc";
-const imgAmbientesMgl89971 = "/images/unsplash/imgAmbientesMgl89971.jpg";
-const imgAmbientesMgl90921 = "/images/unsplash/imgAmbientesMgl90921.jpg";
-const imgAmbientes161 = "/images/unsplash/imgAmbientes161.jpg";
-const imgAmbientesMgl90101 = "/images/unsplash/imgAmbientesMgl90101.jpg";
-const imgAmbientesMgl90221 = "/images/unsplash/imgAmbientesMgl90221.jpg";
-const imgAmbientesMgl90721 = "/images/unsplash/imgAmbientesMgl90721.jpg";
+const imgAmbientesMgl89971 = "/images/figma/imgAmbientesMgl89971.png";
+const imgAmbientesMgl90921 = "/images/figma/imgAmbientesMgl90921.png";
+const imgAmbientes161 = "/images/figma/imgAmbientes161.png";
+const imgAmbientesMgl90101 = "/images/figma/imgAmbientesMgl90101.png";
+const imgAmbientesMgl90221 = "/images/figma/imgAmbientesMgl90221.png";
+const imgAmbientesMgl90721 = "/images/figma/imgAmbientesMgl90721.png";
 
 export function CasaSection() {
   const scrollTo = (id: string) => {
