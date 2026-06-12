@@ -8,7 +8,7 @@ const imgCevicheDeSalmaoComManga1 = "/images/figma/imgCevicheDeSalmaoComManga1.p
 const imgEntradasMenu711 = "/images/figma/imgEntradasMenu711.png";
 const imgPeixesCardapio501 = "/images/figma/imgPeixesCardapio501.png";
 const imgMousseDeChocolatePadocaGael1 = "/images/figma/imgMousseDeChocolatePadocaGael1.png";
-const imgFraldinha1 = "/images/figma/imgFraldinha1.png";
+const imgFraldinha2 = "/images/figma/imgFraldinha2.png";
 
 export function CozinhaSection() {
   return (
@@ -188,7 +188,7 @@ export function CozinhaSection() {
           </div>
           <div className="hidden md:block" />
           <div className="col-span-2 md:col-span-3 rounded-[2rem] overflow-hidden aspect-[16/6] bg-gray-300">
-            <img src={imgFraldinha1} alt="Fraldinha" className="w-full h-full object-cover" />
+            <img src={imgFraldinha2} alt="Fraldinha" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>

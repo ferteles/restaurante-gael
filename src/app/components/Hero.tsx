@@ -1,5 +1,4 @@
-const imgFraldinha1 = "/images/figma/imgFraldinha1.png";
-const imgRisotoComMignonAug231 = "/images/figma/imgRisotoComMignonAug231.png";
+const imgAmbientes17 = "/images/figma/imgAmbientes17.png";
 
 export function Hero() {
   const scrollTo = (id: string) => {
@@ -10,12 +9,9 @@ export function Hero() {
   return (
     <section className="relative min-h-screen flex flex-col overflow-hidden bg-gray-800">
       <div className="absolute inset-0 z-0">
-        <img src={imgFraldinha1} alt="Fraldinha" className="w-full h-full object-cover object-center" />
+        <img src={imgAmbientes17} alt="Restaurante Gael" className="w-full h-full object-cover object-center" />
       </div>
-      <div className="absolute inset-0 z-[1]">
-        <img src={imgRisotoComMignonAug231} alt="Risoto com mignon" className="w-full h-full object-cover object-center" />
-      </div>
-      <div className="absolute inset-0 z-[2] bg-[rgba(30,30,30,0.37)]" />
+      <div className="absolute inset-0 z-[1] bg-[rgba(30,30,30,0.37)]" />
 
       <div className="relative z-10 flex flex-col items-center justify-center flex-1 text-center px-6 pb-24 pt-36">
         <h1
