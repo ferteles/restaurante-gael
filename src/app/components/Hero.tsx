@@ -30,7 +30,7 @@ export function Hero() {
         >
           Cozinha autoral, sem rótulos
           <br />
-          e no ritmo da cidade
+          e no seu ritmo
         </h1>
 
         <div className="mt-12 flex flex-col items-center gap-2">
@@ -43,7 +43,7 @@ export function Hero() {
               fontWeight: 700,
             }}
           >
-            Reserve sua mesa
+            Peça pelo Delivery
           </button>
           <div className="h-px w-52 bg-white opacity-80" />
         </div>

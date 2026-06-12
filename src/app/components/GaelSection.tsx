@@ -179,7 +179,7 @@ export function GaelSection() {
           <div>
             <p className="text-black leading-relaxed" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
               Somos um restaurante em Pinheiros, São Paulo pensado para fazer parte do dia. Um lugar
-              que abre cedo, acompanha o ritmo de quem passa e de quem fica, e mantém uma relação
+              que abre cedo, acompanha o ritmo de quem passa e de quem fica, mantém uma relação
               próxima com a rotina do bairro, acompanhando o tempo, a estação e o movimento da
               cidade, com pratos que evoluem e se ajustam naturalmente.
             </p>
@@ -192,7 +192,7 @@ export function GaelSection() {
               presente em diferentes momentos.
             </p>
             <p className="text-black leading-relaxed mt-4" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
-              O espaço é urbano, leve e acolhedor, com a cara de Pinheiros. Funciona bem para
+              O espaço é um jardim leve e acolhedor, com a cara de Pinheiros. Funciona bem para
               almoço, jantar ou encontros sem pressa. O foco está na comida, na conversa e no tempo
               bem aproveitado.
             </p>

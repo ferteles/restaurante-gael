@@ -8,7 +8,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-[#019eac] relative overflow-hidden">
+    <footer className="bg-[#ac8401] relative overflow-hidden">
       <div className="absolute inset-0 opacity-10 mix-blend-luminosity pointer-events-none bg-gray-500">
         {/* Background image placeholder */}
       </div>
@@ -127,7 +127,7 @@ export function Footer() {
             <nav className="flex flex-col gap-3">
               {[
                 { label: "O jeito Gael", id: "jeito-gael" },
-                { label: "Cardápio", id: "nossa-cozinha" },
+                { label: "Cardápio", id: "nosso-proposito" },
                 { label: "Ambiente", id: "nossa-casa" },
                 { label: "Contato", id: "contato" },
               ].map((item) => (
@@ -143,10 +143,14 @@ export function Footer() {
             </nav>
           </div>
 
-          <div className="flex flex-col gap-3">
-            <p className="text-white uppercase mb-1" style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}>Reservas</p>
-            <a href="tel:+5511999999999" className="text-white hover:opacity-70 transition-opacity" style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(0.85rem, 1.5vw, 1.1rem)", fontWeight: 600 }}>+55 11 9 9999 9999</a>
-            <a href="mailto:contato@gael.com.br" className="text-white hover:opacity-70 transition-opacity" style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(0.85rem, 1.5vw, 1.1rem)", fontWeight: 600 }}>contato@gael.com.br</a>
+          <div className="flex flex-col gap-3 justify-center">
+            <button
+              onClick={() => scrollTo("contato")}
+              className="text-white uppercase hover:opacity-70 transition-opacity text-left"
+              style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}
+            >
+              Peça pelo Delivery
+            </button>
           </div>
 
           <div>

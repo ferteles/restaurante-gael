@@ -37,10 +37,10 @@ export function Navbar() {
             O Jeito Gael
           </button>
           <button
-            onClick={() => scrollTo("nossa-cozinha")}
+            onClick={() => scrollTo("nosso-proposito")}
             className={`font-['Cormorant_Garamond',serif] text-sm lg:text-base uppercase tracking-widest ${textColor} hover:opacity-60 transition-all`}
           >
-            Nossa Cozinha
+            Nosso Propósito
           </button>
         </div>
 
@@ -122,7 +122,7 @@ export function Navbar() {
         >
           {[
             { label: "O Jeito Gael", id: "jeito-gael" },
-            { label: "Nossa Cozinha", id: "nossa-cozinha" },
+            { label: "Nosso Propósito", id: "nosso-proposito" },
             { label: "Nossa Casa", id: "nossa-casa" },
             { label: "Contato", id: "contato" },
           ].map((item) => (

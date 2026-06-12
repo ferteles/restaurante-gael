@@ -12,7 +12,7 @@ const imgFraldinha1 = "/images/figma/imgFraldinha1.png";
 
 export function CozinhaSection() {
   return (
-    <section id="nossa-cozinha" className="bg-[#f5e6dd] relative overflow-hidden py-24 md:py-36">
+    <section id="nosso-proposito" className="bg-[#f5e6dd] relative overflow-hidden py-24 md:py-36">
 
       {/* Cooking pot illustration — left, upper area */}
       <div className="absolute left-0 top-8 w-[clamp(220px,36vw,500px)] pointer-events-none opacity-90 hidden lg:block"
@@ -123,25 +123,31 @@ export function CozinhaSection() {
             lineHeight: 1,
           }}
         >
-          Nossa Cozinha
+          Nosso Propósito
         </h2>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-20 mb-16 items-start">
           <div className="hidden lg:block lg:flex-1" />
           <div className="lg:flex-1">
             <p className="text-black leading-relaxed mb-4" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
-              Mudamos com frequência e valorizamos ingredientes frescos. Há pratos para compartilhar,
-              opções individuais e preparos que equilibram conforto e surpresa, mantendo uma linguagem
-              direta e acessível.
+              O nome GAEL tem muitos significados e sua origem está presente em várias culturas, mas
+              basicamente significa generoso, belo, e abençoado que protege.
             </p>
             <p className="text-black leading-relaxed mb-4" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
-              A cozinha trabalha com um cardápio variado, que abrange diferentes tipos de comida e
-              acompanha os vários momentos do dia. As referências convivem no mesmo menu de forma
-              natural, com atenção ao preparo, ao equilíbrio e à constância.
+              Por isso somos um restaurante de ideias e propostas do bem viver. Queremos ser
+              autênticos, democráticos, fartos e acessíveis. Tudo muito simples, feliz e gostoso.
+            </p>
+            <p className="text-black leading-relaxed mb-4" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+              Como em um manual de "estilo de vida saudável" flertamos com soluções gastronômicas
+              que se preocupam com o sabor de fazer casa com ingredientes naturais e na comunhão
+              das pessoas em volta de uma boa e confortável mesa.
             </p>
             <p className="text-black leading-relaxed mb-8" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
-              Com opções que transitam entre o conforto e a variedade. Há escolhas para qualquer
-              horário, com a mesma lógica de simplicidade e cuidado.
+              O fazer com capricho, com qualidade e alma, formam a essência conceitual do GAEL e
+              nossa comida busca a miscigenação de varias culturas e origens onde a escolha
+              determinante dos pratos é ser basicamente, muito saboroso. Por isso chamamos de
+              cozinha mestiça: não descendemos de nenhum lugar. Temos o compromisso de servir um
+              belo, apetitoso e generoso prato de onde quer que esteja sua origem.
             </p>
             <div className="flex flex-col items-start gap-1">
               <span className="text-black uppercase tracking-widest" style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(0.9rem, 2vw, 1.4rem)", fontWeight: 700 }}>

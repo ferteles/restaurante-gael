@@ -116,9 +116,9 @@ export function CasaSection() {
             mesma sensação de familiaridade e conforto.
           </p>
           <p className="text-black leading-relaxed mb-10" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
-            O espaço é urbano, leve e acolhedor, com a cara de Pinheiros. Funciona bem para almoço,
-            jantar ou encontros sem pressa. O foco está na comida, na conversa e no tempo bem
-            aproveitado.
+            O espaço é um jardim, leve e acolhedor, com a cara de Pinheiros. Funciona bem para
+            almoço, jantar ou encontros sem pressa. O foco está na comida, na conversa e no tempo
+            bem aproveitado.
           </p>
 
           <div className="flex flex-col items-start gap-1">
