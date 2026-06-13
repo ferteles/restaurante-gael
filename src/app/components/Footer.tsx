@@ -60,7 +60,7 @@ export function Footer() {
                   key={item.id}
                   onClick={() => scrollTo(item.id)}
                   className="text-white uppercase text-left hover:opacity-70 transition-opacity"
-                  style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}
+                  style={{ fontFamily: "'Maca'", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}
                 >
                   {item.label}
                 </button>
@@ -72,29 +72,29 @@ export function Footer() {
             <button
               onClick={() => scrollTo("contato")}
               className="text-white uppercase hover:opacity-70 transition-opacity text-left"
-              style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}
+              style={{ fontFamily: "'Maca'", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}
             >
               Peça pelo Delivery
             </button>
           </div>
 
           <div>
-            <p className="text-white uppercase mb-3" style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}>Endereço</p>
-            <p className="text-white leading-relaxed" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.82rem, 1.3vw, 1rem)" }}>
+            <p className="text-white uppercase mb-3" style={{ fontFamily: "'Maca'", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}>Endereço</p>
+            <p className="text-white leading-relaxed" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.82rem, 1.3vw, 1rem)" }}>
               Rua Ferreira de Araújo, 320 e 322<br />Pinheiros, São Paulo, SP
             </p>
           </div>
 
           <div>
-            <p className="text-white uppercase mb-3" style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}>Horários</p>
-            <p className="text-white leading-relaxed" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.82rem, 1.3vw, 1rem)" }}>
+            <p className="text-white uppercase mb-3" style={{ fontFamily: "'Maca'", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}>Horários</p>
+            <p className="text-white leading-relaxed" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.82rem, 1.3vw, 1rem)" }}>
               Seg à sexta: 7h às 23h<br />Sáb, dom e feriados: 7h às 22h
             </p>
           </div>
         </div>
 
         <div className="mt-16 pt-8 border-t border-white/20">
-          <p className="text-white/50 text-center" style={{ fontFamily: "'Lato', sans-serif", fontSize: "0.78rem" }}>
+          <p className="text-white/50 text-center" style={{ fontFamily: "'Gotham'", fontSize: "0.78rem" }}>
             © {new Date().getFullYear()} Gael Restaurante — Pinheiros, São Paulo — por{" "}
             <a
               href="https://tauatech.com"

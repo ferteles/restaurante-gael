@@ -32,13 +32,13 @@ export function Navbar() {
         <div className="hidden md:flex items-center gap-8 lg:gap-12">
           <button
             onClick={() => scrollTo("jeito-gael")}
-            className={`font-['Cormorant_Garamond',serif] text-sm lg:text-base uppercase tracking-widest ${textColor} hover:opacity-60 transition-all`}
+            className={`font-['Maca'] text-sm lg:text-base uppercase tracking-widest ${textColor} hover:opacity-60 transition-all`}
           >
             O Jeito Gael
           </button>
           <button
             onClick={() => scrollTo("nosso-proposito")}
-            className={`font-['Cormorant_Garamond',serif] text-sm lg:text-base uppercase tracking-widest ${textColor} hover:opacity-60 transition-all`}
+            className={`font-['Maca'] text-sm lg:text-base uppercase tracking-widest ${textColor} hover:opacity-60 transition-all`}
           >
             Nosso Propósito
           </button>
@@ -80,13 +80,13 @@ export function Navbar() {
         <div className="hidden md:flex items-center gap-8 lg:gap-12">
           <button
             onClick={() => scrollTo("nossa-casa")}
-            className={`font-['Cormorant_Garamond',serif] text-sm lg:text-base uppercase tracking-widest ${textColor} hover:opacity-60 transition-all`}
+            className={`font-['Maca'] text-sm lg:text-base uppercase tracking-widest ${textColor} hover:opacity-60 transition-all`}
           >
             Nossa Casa
           </button>
           <button
             onClick={() => scrollTo("contato")}
-            className={`font-['Cormorant_Garamond',serif] text-sm lg:text-base uppercase tracking-widest ${textColor} hover:opacity-60 transition-all`}
+            className={`font-['Maca'] text-sm lg:text-base uppercase tracking-widest ${textColor} hover:opacity-60 transition-all`}
           >
             Contato
           </button>
@@ -129,7 +129,7 @@ export function Navbar() {
             <button
               key={item.id}
               onClick={() => scrollTo(item.id)}
-              className={`font-['Cormorant_Garamond',serif] text-base uppercase tracking-widest ${
+              className={`font-['Maca'] text-base uppercase tracking-widest ${
                 scrolled ? "text-[#1e1e1e]" : "text-white"
               } hover:opacity-60 transition-all`}
             >

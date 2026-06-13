@@ -9,7 +9,7 @@ export function ContactSection() {
             <h3
               className="text-[#1e1e1e] mb-4 uppercase"
               style={{
-                fontFamily: "'Cormorant Garamond', serif",
+                fontFamily: "'Maca'",
                 fontSize: "clamp(2rem, 5vw, 4rem)",
                 fontWeight: 700,
               }}
@@ -19,7 +19,7 @@ export function ContactSection() {
             <p
               className="text-black leading-relaxed"
               style={{
-                fontFamily: "'Lato', sans-serif",
+                fontFamily: "'Gotham'",
                 fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)",
               }}
             >
@@ -33,7 +33,7 @@ export function ContactSection() {
             <h3
               className="text-[#1e1e1e] mb-4 uppercase"
               style={{
-                fontFamily: "'Cormorant Garamond', serif",
+                fontFamily: "'Maca'",
                 fontSize: "clamp(2rem, 5vw, 4rem)",
                 fontWeight: 700,
               }}
@@ -43,7 +43,7 @@ export function ContactSection() {
             <p
               className="text-black leading-relaxed"
               style={{
-                fontFamily: "'Lato', sans-serif",
+                fontFamily: "'Gotham'",
                 fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)",
               }}
             >
@@ -54,8 +54,17 @@ export function ContactSection() {
           </div>
         </div>
 
-        <div className="rounded-[2rem] overflow-hidden w-full aspect-[16/7] shadow-md bg-gray-300 flex items-center justify-center text-gray-500">
-          Mapa - Rua Ferreira de Araújo, Pinheiros
+        <div className="rounded-[2rem] overflow-hidden w-full aspect-[16/7] shadow-md">
+          <iframe
+            title="Localização Gael Restaurante"
+            src="https://www.google.com/maps?q=Rua+Ferreira+de+Araújo,+320,+Pinheiros,+São+Paulo,+SP,+Brasil&output=embed"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
         </div>
       </div>
     </section>

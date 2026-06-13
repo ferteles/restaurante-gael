@@ -17,7 +17,7 @@ export function Hero() {
         <h1
           className="text-white text-center max-w-4xl mx-auto"
           style={{
-            fontFamily: "'Cormorant Garamond', serif",
+            fontFamily: "'Maca'",
             fontSize: "clamp(2.5rem, 6vw, 6rem)",
             fontWeight: 700,
             fontStyle: "italic",
@@ -34,7 +34,7 @@ export function Hero() {
             onClick={() => scrollTo("contato")}
             className="text-white uppercase tracking-widest hover:opacity-70 transition-opacity"
             style={{
-              fontFamily: "'Cormorant Garamond', serif",
+              fontFamily: "'Maca'",
               fontSize: "clamp(1rem, 2.5vw, 1.6rem)",
               fontWeight: 700,
             }}

@@ -117,7 +117,7 @@ export function CozinhaSection() {
         <h2
           className="text-[#1e1e1e] text-center mb-12"
           style={{
-            fontFamily: "'Cormorant Garamond', serif",
+            fontFamily: "'Maca'",
             fontSize: "clamp(3rem, 8vw, 8rem)",
             fontWeight: 700,
             lineHeight: 1,
@@ -129,20 +129,20 @@ export function CozinhaSection() {
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-20 mb-16 items-start">
           <div className="hidden lg:block lg:flex-1" />
           <div className="lg:flex-1">
-            <p className="text-black leading-relaxed mb-4" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+            <p className="text-black leading-relaxed mb-4" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
               O nome GAEL tem muitos significados e sua origem está presente em várias culturas, mas
               basicamente significa generoso, belo, e abençoado que protege.
             </p>
-            <p className="text-black leading-relaxed mb-4" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+            <p className="text-black leading-relaxed mb-4" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
               Por isso somos um restaurante de ideias e propostas do bem viver. Queremos ser
               autênticos, democráticos, fartos e acessíveis. Tudo muito simples, feliz e gostoso.
             </p>
-            <p className="text-black leading-relaxed mb-4" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+            <p className="text-black leading-relaxed mb-4" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
               Como em um manual de "estilo de vida saudável" flertamos com soluções gastronômicas
               que se preocupam com o sabor de fazer casa com ingredientes naturais e na comunhão
               das pessoas em volta de uma boa e confortável mesa.
             </p>
-            <p className="text-black leading-relaxed mb-8" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+            <p className="text-black leading-relaxed mb-8" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
               O fazer com capricho, com qualidade e alma, formam a essência conceitual do GAEL e
               nossa comida busca a miscigenação de varias culturas e origens onde a escolha
               determinante dos pratos é ser basicamente, muito saboroso. Por isso chamamos de
@@ -150,7 +150,7 @@ export function CozinhaSection() {
               belo, apetitoso e generoso prato de onde quer que esteja sua origem.
             </p>
             <div className="flex flex-col items-start gap-1">
-              <span className="text-black uppercase tracking-widest" style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(0.9rem, 2vw, 1.4rem)", fontWeight: 700 }}>
+              <span className="text-black uppercase tracking-widest" style={{ fontFamily: "'Maca'", fontSize: "clamp(0.9rem, 2vw, 1.4rem)", fontWeight: 700 }}>
                 Confira o nosso cardápio
               </span>
               <div className="h-px w-60 bg-black" />

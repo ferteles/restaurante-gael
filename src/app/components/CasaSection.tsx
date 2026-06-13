@@ -100,7 +100,7 @@ export function CasaSection() {
         <h2
           className="text-[#1e1e1e] text-center mb-12"
           style={{
-            fontFamily: "'Cormorant Garamond', serif",
+            fontFamily: "'Maca'",
             fontSize: "clamp(3rem, 8vw, 8rem)",
             fontWeight: 700,
             lineHeight: 1,
@@ -110,12 +110,12 @@ export function CasaSection() {
         </h2>
 
         <div className="max-w-2xl mx-auto lg:mx-0 mb-16">
-          <p className="text-black leading-relaxed mb-6" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+          <p className="text-black leading-relaxed mb-6" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
             O Gael faz parte da rotina. Um restaurante que acompanha o ritmo da semana, dos horários
             e das pessoas que passam por aqui. Cada visita acontece de um jeito, mas sempre com a
             mesma sensação de familiaridade e conforto.
           </p>
-          <p className="text-black leading-relaxed mb-10" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+          <p className="text-black leading-relaxed mb-10" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
             O espaço é um jardim, leve e acolhedor, com a cara de Pinheiros. Funciona bem para
             almoço, jantar ou encontros sem pressa. O foco está na comida, na conversa e no tempo
             bem aproveitado.
@@ -125,7 +125,7 @@ export function CasaSection() {
             <button
               onClick={() => scrollTo("contato")}
               className="text-black uppercase tracking-widest hover:opacity-60 transition-opacity"
-              style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "clamp(0.9rem, 2vw, 1.4rem)", fontWeight: 700 }}
+              style={{ fontFamily: "'Maca'", fontSize: "clamp(0.9rem, 2vw, 1.4rem)", fontWeight: 700 }}
             >
               Faça sua reserva
             </button>

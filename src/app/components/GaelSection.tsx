@@ -166,7 +166,7 @@ export function GaelSection() {
         <h2
           className="text-[#1e1e1e] text-center mb-16 md:mb-24"
           style={{
-            fontFamily: "'Cormorant Garamond', serif",
+            fontFamily: "'Maca'",
             fontSize: "clamp(3rem, 8vw, 8rem)",
             fontWeight: 700,
             lineHeight: 1,
@@ -177,7 +177,7 @@ export function GaelSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 mb-16 md:mb-24">
           <div>
-            <p className="text-black leading-relaxed" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+            <p className="text-black leading-relaxed" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
               Somos um restaurante em Pinheiros, São Paulo pensado para fazer parte do dia. Um lugar
               que abre cedo, acompanha o ritmo de quem passa e de quem fica, mantém uma relação
               próxima com a rotina do bairro, acompanhando o tempo, a estação e o movimento da
@@ -185,13 +185,13 @@ export function GaelSection() {
             </p>
           </div>
           <div>
-            <p className="text-black leading-relaxed" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+            <p className="text-black leading-relaxed" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
               O Gael funciona do café da manhã ao jantar. Recebe quem chega para começar o dia, quem
               senta para almoçar com calma, quem volta para um café no meio da tarde ou escolhe ficar
               para um jantar tranquilo. A proposta é simples: ser um restaurante de dia a dia,
               presente em diferentes momentos.
             </p>
-            <p className="text-black leading-relaxed mt-4" style={{ fontFamily: "'Lato', sans-serif", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+            <p className="text-black leading-relaxed mt-4" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
               O espaço é um jardim leve e acolhedor, com a cara de Pinheiros. Funciona bem para
               almoço, jantar ou encontros sem pressa. O foco está na comida, na conversa e no tempo
               bem aproveitado.
