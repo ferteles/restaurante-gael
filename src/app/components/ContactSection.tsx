@@ -1,4 +1,5 @@
-import svgPaths from "../../imports/svg-oj8mr5v7qc";
+import svgPaths from "../../imports/svgPaths";
+import { macaHeadingMd, gothamBody } from "../../styles/typography";
 
 export function ContactSection() {
   return (
@@ -25,21 +26,13 @@ export function ContactSection() {
           <div>
             <h3
               className="text-[#1e1e1e] mb-4 uppercase"
-              style={{
-                fontFamily: "'Maca'",
-                fontSize: "clamp(2rem, 4.8vw, 4.35rem)",
-                fontWeight: 700,
-                lineHeight: 0.75,
-              }}
+              style={macaHeadingMd}
             >
               Endereço
             </h3>
             <p
               className="text-black leading-relaxed"
-              style={{
-                fontFamily: "'Gotham'",
-                fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)",
-              }}
+              style={gothamBody}
             >
               Rua Ferreira de Araújo, 320 e 322
               <br />
@@ -50,21 +43,13 @@ export function ContactSection() {
           <div>
             <h3
               className="text-[#1e1e1e] mb-4 uppercase"
-              style={{
-                fontFamily: "'Maca'",
-                fontSize: "clamp(2rem, 4.8vw, 4.35rem)",
-                fontWeight: 700,
-                lineHeight: 0.75,
-              }}
+              style={macaHeadingMd}
             >
               Horários
             </h3>
             <p
               className="text-black leading-relaxed"
-              style={{
-                fontFamily: "'Gotham'",
-                fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)",
-              }}
+              style={gothamBody}
             >
               Segunda a sexta: 7h às 23h
               <br />

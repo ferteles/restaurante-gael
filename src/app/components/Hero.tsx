@@ -1,11 +1,8 @@
+import { scrollTo } from "../../utils/scroll";
+
 const imgAmbientes17 = "/images/figma/imgAmbientes17.png";
 
 export function Hero() {
-  const scrollTo = (id: string) => {
-    const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section className="relative min-h-screen flex flex-col overflow-hidden bg-gray-800">
       <div className="absolute inset-0 z-0">

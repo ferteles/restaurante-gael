@@ -1,4 +1,6 @@
-import svgPaths from "../../imports/svg-oj8mr5v7qc";
+import svgPaths from "../../imports/svgPaths";
+import { macaHeading, gothamBody } from "../../styles/typography";
+
 const imgAmbientesMgl89971 = "/images/figma/imgAmbientesMgl89971.png";
 const imgAmbientesMgl90921 = "/images/figma/imgAmbientesMgl90921.png";
 const imgAmbientes161 = "/images/figma/imgAmbientes161.png";
@@ -47,23 +49,18 @@ export function CasaSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
         <h2
           className="text-[#1e1e1e] uppercase text-center mb-12 md:mb-16"
-          style={{
-            fontFamily: "'Maca'",
-            fontSize: "clamp(3rem, 8.3vw, 7.45rem)",
-            fontWeight: 700,
-            lineHeight: 0.75,
-          }}
+          style={macaHeading}
         >
           Nossa Casa
         </h2>
 
         <div className="max-w-xl mx-auto mb-16 md:mb-24">
-          <p className="text-black leading-relaxed mb-6" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.125rem)" }}>
+          <p className="text-black leading-relaxed mb-6" style={gothamBody}>
             O Gael faz parte da rotina. Um restaurante que acompanha o ritmo da semana, dos horários
             e das pessoas que passam por aqui. Cada visita acontece de um jeito, mas sempre com a
             mesma sensação de familiaridade e conforto.
           </p>
-          <p className="text-black leading-relaxed" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.125rem)" }}>
+          <p className="text-black leading-relaxed" style={gothamBody}>
             O espaço é um jardim, leve e acolhedor, com a cara de Pinheiros. Funciona bem para
             almoço, jantar ou encontros sem pressa. O foco está na comida, na conversa e no tempo
             bem aproveitado.

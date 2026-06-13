@@ -1,4 +1,6 @@
-import svgPaths from "../../imports/svg-oj8mr5v7qc";
+import svgPaths from "../../imports/svgPaths";
+import { macaHeading, gothamBody } from "../../styles/typography";
+
 const imgAmbientesMgl90521 = "/images/figma/imgAmbientesMgl90521.png";
 const imgGaelMaio24611 = "/images/figma/imgGaelMaio24611.png";
 const imgAmbientesMgl90352 = "/images/figma/imgAmbientesMgl90352.png";
@@ -205,7 +207,7 @@ export function GaelSection() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-24 md:py-36">
         <div className="flex lg:justify-end lg:mt-72 mb-20 md:mb-32 lg:mb-[28rem]">
-          <p className="text-black leading-relaxed lg:max-w-md" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.125rem)" }}>
+          <p className="text-black leading-relaxed lg:max-w-md" style={gothamBody}>
             Somos um restaurante em Pinheiros, São Paulo pensado para fazer parte do dia. Um lugar
             que abre cedo, acompanha o ritmo de quem passa e de quem fica, mantém uma relação
             próxima com a rotina do bairro, acompanhando o tempo, a estação e o movimento da
@@ -216,23 +218,18 @@ export function GaelSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center mb-16 md:mb-24 lg:mb-56">
           <h2
             className="text-[#1e1e1e] uppercase text-center lg:text-left whitespace-nowrap"
-            style={{
-              fontFamily: "'Maca'",
-              fontSize: "clamp(3rem, 8.3vw, 7.45rem)",
-              fontWeight: 700,
-              lineHeight: 0.75,
-            }}
+            style={macaHeading}
           >
             O Jeito Gael
           </h2>
           <div>
-            <p className="text-black leading-relaxed" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.125rem)" }}>
+            <p className="text-black leading-relaxed" style={gothamBody}>
               O Gael funciona do café da manhã ao jantar. Recebe quem chega para começar o dia, quem
               senta para almoçar com calma, quem volta para um café no meio da tarde ou escolhe ficar
               para um jantar tranquilo. A proposta é simples: ser um restaurante de dia a dia,
               presente em diferentes momentos.
             </p>
-            <p className="text-black leading-relaxed mt-4" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.125rem)" }}>
+            <p className="text-black leading-relaxed mt-4" style={gothamBody}>
               O espaço é um jardim leve e acolhedor, com a cara de Pinheiros. Funciona bem para
               almoço, jantar ou encontros sem pressa. O foco está na comida, na conversa e no tempo
               bem aproveitado.

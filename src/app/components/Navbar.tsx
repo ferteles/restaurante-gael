@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
-import svgPaths from "../../imports/svg-oj8mr5v7qc";
+import svgPaths from "../../imports/svgPaths";
+import { scrollTo } from "../../utils/scroll";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -13,10 +14,9 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollTo = (id: string) => {
+  const navigateTo = (id: string) => {
     setMobileOpen(false);
-    const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
+    scrollTo(id);
   };
 
   const textColor = scrolled ? "text-[#1e1e1e]" : "text-white";
@@ -31,13 +31,13 @@ export function Navbar() {
       <div className="flex items-center justify-between px-8 md:px-16">
         <div className="hidden md:flex items-center gap-8 lg:gap-12">
           <button
-            onClick={() => scrollTo("jeito-gael")}
+            onClick={() => navigateTo("jeito-gael")}
             className={`font-['Maca'] text-[clamp(1.1rem,1.8vw,2rem)] uppercase tracking-normal ${textColor} hover:opacity-60 transition-all`}
           >
             O Jeito Gael
           </button>
           <button
-            onClick={() => scrollTo("nosso-proposito")}
+            onClick={() => navigateTo("nosso-proposito")}
             className={`font-['Maca'] text-[clamp(1.1rem,1.8vw,2rem)] uppercase tracking-normal ${textColor} hover:opacity-60 transition-all`}
           >
             Nosso Propósito
@@ -79,13 +79,13 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center gap-8 lg:gap-12">
           <button
-            onClick={() => scrollTo("nossa-casa")}
+            onClick={() => navigateTo("nossa-casa")}
             className={`font-['Maca'] text-[clamp(1.1rem,1.8vw,2rem)] uppercase tracking-normal ${textColor} hover:opacity-60 transition-all`}
           >
             Nossa Casa
           </button>
           <button
-            onClick={() => scrollTo("contato")}
+            onClick={() => navigateTo("contato")}
             className={`font-['Maca'] text-[clamp(1.1rem,1.8vw,2rem)] uppercase tracking-normal ${textColor} hover:opacity-60 transition-all`}
           >
             Contato
@@ -128,7 +128,7 @@ export function Navbar() {
           ].map((item) => (
             <button
               key={item.id}
-              onClick={() => scrollTo(item.id)}
+              onClick={() => navigateTo(item.id)}
               className={`font-['Maca'] text-2xl uppercase tracking-normal ${
                 scrolled ? "text-[#1e1e1e]" : "text-white"
               } hover:opacity-60 transition-all`}
