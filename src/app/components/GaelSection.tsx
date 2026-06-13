@@ -204,7 +204,7 @@ export function GaelSection() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-24 md:py-36">
-        <div className="flex lg:justify-end mb-20 md:mb-32">
+        <div className="flex lg:justify-end lg:mt-72 mb-20 md:mb-32 lg:mb-[28rem]">
           <p className="text-black leading-relaxed lg:max-w-md" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.125rem)" }}>
             Somos um restaurante em Pinheiros, São Paulo pensado para fazer parte do dia. Um lugar
             que abre cedo, acompanha o ritmo de quem passa e de quem fica, mantém uma relação
@@ -213,7 +213,7 @@ export function GaelSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center mb-16 md:mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center mb-16 md:mb-24 lg:mb-56">
           <h2
             className="text-[#1e1e1e] uppercase text-center lg:text-left whitespace-nowrap"
             style={{

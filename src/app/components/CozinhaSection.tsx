@@ -23,7 +23,7 @@ export function CozinhaSection() {
 
       {/* Thin decoration — right edge, beside the text */}
       <div className="absolute right-0 w-[clamp(60px,9vw,130px)] pointer-events-none opacity-90 hidden lg:block"
-        style={{ top: "clamp(160px,18vw,260px)", transform: "translateX(30%) rotate(-140.45deg)" }}>
+        style={{ top: "clamp(10px,3vw,50px)", transform: "translateX(30%) rotate(-140.45deg)" }}>
         <svg viewBox="0 0 133.956 380.102" fill="none" className="w-full">
           <g clipPath="url(#coz-thin-clip)">
             <path d={svgPaths.p38eb78c0} fill="black" />
@@ -38,7 +38,7 @@ export function CozinhaSection() {
 
       {/* Leaf — bottom left */}
       <div className="absolute left-4 pointer-events-none opacity-90 hidden lg:block"
-        style={{ top: "clamp(700px,72vw,1015px)", width: "clamp(120px,18vw,260px)" }}>
+        style={{ top: "clamp(760px,78vw,1125px)", width: "clamp(120px,18vw,260px)" }}>
         <svg viewBox="0 0 306 169" fill="none" className="w-full">
           <g clipPath="url(#coz-leaf-clip)">
             <path d={svgPaths.p3d174700} fill="black" />
@@ -53,7 +53,7 @@ export function CozinhaSection() {
 
       {/* Large plant right */}
       <div className="absolute right-0 pointer-events-none opacity-90 hidden lg:block"
-        style={{ top: "clamp(340px,38vw,680px)", width: "clamp(140px,22vw,320px)", transform: "translateX(10%)" }}>
+        style={{ top: "clamp(420px,49vw,710px)", width: "clamp(140px,22vw,320px)", transform: "translateX(10%)" }}>
         <svg viewBox="0 0 347 330" fill="none" className="w-full">
           <g clipPath="url(#coz-plant-right-clip)">
             <path d={svgPaths.p3fe80500} fill="black" />
@@ -71,7 +71,7 @@ export function CozinhaSection() {
 
       {/* Very large floral — behind the menu photo grid */}
       <div className="absolute pointer-events-none hidden lg:block"
-        style={{ left: "22%", top: "clamp(700px,75vw,1080px)", width: "clamp(600px,90vw,1300px)", transform: "scaleY(-1) rotate(11.45deg)" }}>
+        style={{ left: "22%", top: "clamp(750px,80vw,1150px)", width: "clamp(600px,90vw,1300px)", transform: "scaleY(-1) rotate(11.45deg)" }}>
         <svg viewBox="0 0 1107.06 1069.21" fill="none" className="w-full">
           <g clipPath="url(#coz-floral-clip)">
             <path d={svgPaths.p2547b300} fill="black" />
@@ -114,7 +114,7 @@ export function CozinhaSection() {
         </svg>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 lg:pt-24">
         <h2
           className="text-[#1e1e1e] uppercase text-center mb-16 md:mb-24"
           style={{

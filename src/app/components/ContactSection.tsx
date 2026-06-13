@@ -4,24 +4,23 @@ export function ContactSection() {
   return (
     <section id="contato" className="bg-[#f5e6dd] relative py-20 md:py-28 overflow-hidden">
 
-      {/* Bicycle sketch — right of address/hours, like Figma */}
-      <div className="absolute right-0 top-0 pointer-events-none opacity-90 hidden lg:block"
-        style={{ width: "clamp(280px,44vw,620px)", transform: "translateX(6%) rotate(9.4deg)" }}>
-        <svg viewBox="0 0 693.652 368.426" fill="none" className="w-full">
-          <g clipPath="url(#contact-bike-clip)">
-            <path d={svgPaths.p10d35300} fill="black" />
-            <path d={svgPaths.p39deba00} fill="black" />
-            <path d={svgPaths.p3ff04340} fill="black" />
-          </g>
-          <defs>
-            <clipPath id="contact-bike-clip">
-              <rect fill="white" height="368.426" width="693.652" />
-            </clipPath>
-          </defs>
-        </svg>
-      </div>
-
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+        {/* Tomato-branch sketch — sticks out to the right of the content, like Figma */}
+        <div className="absolute -z-10 right-0 -top-6 pointer-events-none opacity-90 hidden lg:block"
+          style={{ width: "clamp(260px,36vw,500px)", transform: "translateX(58%) rotate(9.4deg)" }}>
+          <svg viewBox="0 0 693.652 368.426" fill="none" className="w-full">
+            <g clipPath="url(#contact-sketch-clip)">
+              <path d={svgPaths.p10d35300} fill="black" />
+              <path d={svgPaths.p39deba00} fill="black" />
+              <path d={svgPaths.p3ff04340} fill="black" />
+            </g>
+            <defs>
+              <clipPath id="contact-sketch-clip">
+                <rect fill="white" height="368.426" width="693.652" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 mb-16">
           <div>
             <h3

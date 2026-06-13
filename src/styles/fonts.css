@@ -1,6 +1,8 @@
+/* Maca-Bold-patched.otf: gerada por scripts/patch-maca.cjs — adiciona Ç/ç ausentes no TTF original */
 @font-face {
   font-family: 'Maca';
-  src: url('/fonts/Maca-Bold.ttf') format('truetype');
+  src: url('/fonts/Maca-Bold-patched.otf') format('opentype'),
+       url('/fonts/Maca-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
