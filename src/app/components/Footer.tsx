@@ -16,10 +16,9 @@ export function Footer() {
 
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-16 md:py-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8">
-          <div className="flex flex-col gap-6">
-            <div className="w-20 h-20">
-              <svg viewBox="0 0 223.73 222.62" fill="none" className="w-full h-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1.6fr_1fr] gap-12 lg:gap-8 items-start">
+          <div className="w-32 md:w-44 lg:w-56">
+            <svg viewBox="0 0 223.73 222.62" fill="none" className="w-full h-auto">
                 <g clipPath="url(#footer-logo-clip)">
                   <path d={svgPaths.pad86300} fill="white" />
                   <path d={svgPaths.p229c5990} fill="white" />
@@ -47,9 +46,9 @@ export function Footer() {
                   </clipPath>
                 </defs>
               </svg>
-            </div>
+          </div>
 
-            <nav className="flex flex-col gap-3">
+          <nav className="flex flex-col gap-4 lg:gap-6">
               {[
                 { label: "O jeito Gael", id: "jeito-gael" },
                 { label: "Cardápio", id: "nosso-proposito" },
@@ -60,35 +59,33 @@ export function Footer() {
                   key={item.id}
                   onClick={() => scrollTo(item.id)}
                   className="text-white uppercase text-left hover:opacity-70 transition-opacity"
-                  style={{ fontFamily: "'Maca'", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}
+                  style={{ fontFamily: "'Maca'", fontSize: "clamp(1.1rem, 1.8vw, 2.5rem)", fontWeight: 700, lineHeight: 1 }}
                 >
                   {item.label}
                 </button>
               ))}
             </nav>
-          </div>
 
-          <div className="flex flex-col gap-3 justify-center">
+          <div className="flex flex-col gap-10 lg:gap-20">
             <button
               onClick={() => scrollTo("contato")}
               className="text-white uppercase hover:opacity-70 transition-opacity text-left"
-              style={{ fontFamily: "'Maca'", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}
+              style={{ fontFamily: "'Maca'", fontSize: "clamp(1.1rem, 1.8vw, 2.5rem)", fontWeight: 700, lineHeight: 1 }}
             >
               Peça pelo Delivery
             </button>
+            <div>
+              <p className="text-white uppercase mb-3" style={{ fontFamily: "'Maca'", fontSize: "clamp(1.1rem, 1.8vw, 2.5rem)", fontWeight: 700, lineHeight: 1 }}>Endereço</p>
+              <p className="text-white leading-snug" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.4vw, 1.25rem)" }}>
+                Rua Ferreira de Araújo, 320 e 322<br />Pinheiros, São Paulo, SP
+              </p>
+            </div>
           </div>
 
-          <div>
-            <p className="text-white uppercase mb-3" style={{ fontFamily: "'Maca'", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}>Endereço</p>
-            <p className="text-white leading-relaxed" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.82rem, 1.3vw, 1rem)" }}>
-              Rua Ferreira de Araújo, 320 e 322<br />Pinheiros, São Paulo, SP
-            </p>
-          </div>
-
-          <div>
-            <p className="text-white uppercase mb-3" style={{ fontFamily: "'Maca'", fontSize: "clamp(0.9rem, 1.8vw, 1.3rem)", fontWeight: 700, letterSpacing: "0.06em" }}>Horários</p>
-            <p className="text-white leading-relaxed" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.82rem, 1.3vw, 1rem)" }}>
-              Seg à sexta: 7h às 23h<br />Sáb, dom e feriados: 7h às 22h
+          <div className="lg:pt-[calc(clamp(1.1rem,1.8vw,2.5rem)+5rem)]">
+            <p className="text-white uppercase mb-3" style={{ fontFamily: "'Maca'", fontSize: "clamp(1.1rem, 1.8vw, 2.5rem)", fontWeight: 700, lineHeight: 1 }}>Horários</p>
+            <p className="text-white leading-snug" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.4vw, 1.25rem)" }}>
+              Seg à sexta: 7h às 23h<br />Sáb dom e feriados: 7h às 22h
             </p>
           </div>
         </div>

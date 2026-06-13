@@ -18,10 +18,9 @@ export function Hero() {
           className="text-white text-center max-w-4xl mx-auto"
           style={{
             fontFamily: "'Maca'",
-            fontSize: "clamp(2.5rem, 6vw, 6rem)",
+            fontSize: "clamp(2.5rem, 7.4vw, 6.625rem)",
             fontWeight: 700,
-            fontStyle: "italic",
-            lineHeight: 1.1,
+            lineHeight: 0.75,
           }}
         >
           Cozinha autoral, sem rótulos
@@ -35,7 +34,7 @@ export function Hero() {
             className="text-white uppercase tracking-widest hover:opacity-70 transition-opacity"
             style={{
               fontFamily: "'Maca'",
-              fontSize: "clamp(1rem, 2.5vw, 1.6rem)",
+              fontSize: "clamp(1.2rem, 2.9vw, 2.625rem)",
               fontWeight: 700,
             }}
           >

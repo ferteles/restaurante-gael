@@ -3,13 +3,54 @@ const imgAmbientesMgl90521 = "/images/figma/imgAmbientesMgl90521.png";
 const imgGaelMaio24611 = "/images/figma/imgGaelMaio24611.png";
 const imgAmbientesMgl90352 = "/images/figma/imgAmbientesMgl90352.png";
 const imgAmbientesMgl90951 = "/images/figma/imgAmbientesMgl90951.png";
+const decoArrow = "/images/figma/decoArrow.svg";
+const decoGaelTopLeft = "/images/figma/decoGaelTopLeft.svg";
+const decoGaelTopCenter = "/images/figma/decoGaelTopCenter.svg";
+const decoGaelTopRight = "/images/figma/decoGaelTopRight.svg";
+const decoGaelMidLeft = "/images/figma/decoGaelMidLeft.svg";
+const decoGaelMidCenter = "/images/figma/decoGaelMidCenter.svg";
 
 export function GaelSection() {
   return (
     <section id="jeito-gael" className="bg-[#f5e6dd] relative overflow-hidden">
 
+      {/* Hand-drawn arrow — across the top, right below the hero */}
+      <div className="absolute left-[11%] top-0 w-[85%] pointer-events-none hidden md:block">
+        <img src={decoArrow} alt="" className="w-full" />
+      </div>
+
+      {/* Sketch — top left edge */}
+      <div className="absolute left-0 pointer-events-none hidden lg:block"
+        style={{ top: "clamp(60px,9vw,125px)", width: "clamp(130px,17.5vw,252px)", transform: "translateX(-38%)" }}>
+        <img src={decoGaelTopLeft} alt="" className="w-full" />
+      </div>
+
+      {/* Sketch — top center-left, rotated */}
+      <div className="absolute pointer-events-none hidden lg:block"
+        style={{ left: "33%", top: "clamp(60px,8vw,117px)", width: "clamp(100px,12.2vw,176px)", transform: "rotate(72.82deg) scaleY(-1)" }}>
+        <img src={decoGaelTopCenter} alt="" className="w-full" />
+      </div>
+
+      {/* Sketch — top right edge */}
+      <div className="absolute right-0 pointer-events-none hidden lg:block"
+        style={{ top: "clamp(50px,7.6vw,110px)", width: "clamp(150px,21.5vw,309px)", transform: "translateX(15%)" }}>
+        <img src={decoGaelTopRight} alt="" className="w-full" />
+      </div>
+
+      {/* Sketch — left edge, mid section, rotated */}
+      <div className="absolute left-0 pointer-events-none hidden lg:block"
+        style={{ top: "clamp(380px,49vw,709px)", width: "clamp(110px,13.8vw,199px)", transform: "translateX(-25%) rotate(72.82deg) scaleY(-1)" }}>
+        <img src={decoGaelMidLeft} alt="" className="w-full" />
+      </div>
+
+      {/* Sketch — center-left, mid section */}
+      <div className="absolute pointer-events-none hidden lg:block"
+        style={{ left: "32%", top: "clamp(420px,55vw,798px)", width: "clamp(120px,16vw,232px)" }}>
+        <img src={decoGaelMidCenter} alt="" className="w-full" />
+      </div>
+
       {/* Bread / basket illustration — left */}
-      <div className="absolute left-0 top-[clamp(60px,14vw,200px)] w-[clamp(260px,38vw,520px)] pointer-events-none opacity-90 hidden md:block" style={{ transform: "translateX(-18%)" }}>
+      <div className="absolute left-0 top-[clamp(120px,20vw,298px)] w-[clamp(260px,38vw,520px)] pointer-events-none opacity-90 hidden md:block" style={{ transform: "translateX(-18%)" }}>
         <svg viewBox="0 0 702 488" fill="none" className="w-full">
           <g clipPath="url(#gael-basket-clip)">
             <path d={svgPaths.p834cc00} fill="black" />
@@ -57,7 +98,7 @@ export function GaelSection() {
       </div>
 
       {/* Vine / fish SVG — right side, upper */}
-      <div className="absolute right-0 top-[clamp(80px,10vw,160px)] w-[clamp(220px,32vw,420px)] pointer-events-none opacity-90 hidden lg:block" style={{ transform: "translateX(10%)" }}>
+      <div className="absolute right-0 top-[clamp(300px,46vw,667px)] w-[clamp(220px,32vw,420px)] pointer-events-none opacity-90 hidden lg:block" style={{ transform: "translateX(10%)" }}>
         <svg viewBox="0 0 600 318" fill="none" className="w-full">
           <g clipPath="url(#gael-vine-clip)">
             <path d={svgPaths.p373b1b00} fill="black" />
@@ -74,7 +115,7 @@ export function GaelSection() {
 
       {/* Large plant/leaf SVG — left mid */}
       <div className="absolute left-0 pointer-events-none opacity-90 hidden lg:block"
-        style={{ top: "clamp(400px,45vw,860px)", width: "clamp(220px,35vw,460px)", transform: "translateX(-18%)" }}>
+        style={{ top: "clamp(680px,94vw,1364px)", width: "clamp(220px,35vw,460px)", transform: "translateX(-18%)" }}>
         <svg viewBox="0 0 599 602" fill="none" className="w-full">
           <g clipPath="url(#gael-plant-left-clip)">
             <path d={svgPaths.p29bcfc40} fill="black" />
@@ -104,7 +145,7 @@ export function GaelSection() {
 
       {/* Large tree SVG — right mid */}
       <div className="absolute right-0 pointer-events-none opacity-90 hidden lg:block"
-        style={{ top: "clamp(360px,42vw,820px)", width: "clamp(260px,40vw,560px)", transform: "translateX(12%)" }}>
+        style={{ top: "clamp(820px,113vw,1641px)", width: "clamp(260px,40vw,560px)", transform: "translateX(12%)" }}>
         <svg viewBox="0 0 727 731" fill="none" className="w-full">
           <g clipPath="url(#gael-tree-right-clip)">
             <path d={svgPaths.p17f59200} fill="black" />
@@ -163,35 +204,35 @@ export function GaelSection() {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-24 md:py-36">
-        <h2
-          className="text-[#1e1e1e] text-center mb-16 md:mb-24"
-          style={{
-            fontFamily: "'Maca'",
-            fontSize: "clamp(3rem, 8vw, 8rem)",
-            fontWeight: 700,
-            lineHeight: 1,
-          }}
-        >
-          O Jeito Gael
-        </h2>
+        <div className="flex lg:justify-end mb-20 md:mb-32">
+          <p className="text-black leading-relaxed lg:max-w-md" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.125rem)" }}>
+            Somos um restaurante em Pinheiros, São Paulo pensado para fazer parte do dia. Um lugar
+            que abre cedo, acompanha o ritmo de quem passa e de quem fica, mantém uma relação
+            próxima com a rotina do bairro, acompanhando o tempo, a estação e o movimento da
+            cidade, com pratos que evoluem e se ajustam naturalmente.
+          </p>
+        </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 mb-16 md:mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center mb-16 md:mb-24">
+          <h2
+            className="text-[#1e1e1e] uppercase text-center lg:text-left whitespace-nowrap"
+            style={{
+              fontFamily: "'Maca'",
+              fontSize: "clamp(3rem, 8.3vw, 7.45rem)",
+              fontWeight: 700,
+              lineHeight: 0.75,
+            }}
+          >
+            O Jeito Gael
+          </h2>
           <div>
-            <p className="text-black leading-relaxed" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
-              Somos um restaurante em Pinheiros, São Paulo pensado para fazer parte do dia. Um lugar
-              que abre cedo, acompanha o ritmo de quem passa e de quem fica, mantém uma relação
-              próxima com a rotina do bairro, acompanhando o tempo, a estação e o movimento da
-              cidade, com pratos que evoluem e se ajustam naturalmente.
-            </p>
-          </div>
-          <div>
-            <p className="text-black leading-relaxed" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+            <p className="text-black leading-relaxed" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.125rem)" }}>
               O Gael funciona do café da manhã ao jantar. Recebe quem chega para começar o dia, quem
               senta para almoçar com calma, quem volta para um café no meio da tarde ou escolhe ficar
               para um jantar tranquilo. A proposta é simples: ser um restaurante de dia a dia,
               presente em diferentes momentos.
             </p>
-            <p className="text-black leading-relaxed mt-4" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.1rem)" }}>
+            <p className="text-black leading-relaxed mt-4" style={{ fontFamily: "'Gotham'", fontSize: "clamp(0.95rem, 1.5vw, 1.125rem)" }}>
               O espaço é um jardim leve e acolhedor, com a cara de Pinheiros. Funciona bem para
               almoço, jantar ou encontros sem pressa. O foco está na comida, na conversa e no tempo
               bem aproveitado.
@@ -199,17 +240,17 @@ export function GaelSection() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <div className="rounded-[2.5rem] overflow-hidden aspect-[4/3] bg-gray-300">
+        <div className="grid grid-cols-1 md:grid-cols-[1.62fr_1fr] gap-5 items-start">
+          <div className="rounded-[2.5rem] overflow-hidden aspect-[690/433] bg-gray-300">
             <img src={imgAmbientesMgl90521} alt="Ambiente Gael" className="w-full h-full object-cover" />
           </div>
-          <div className="rounded-[2.5rem] overflow-hidden aspect-[4/3] bg-gray-300">
+          <div className="rounded-[2.5rem] overflow-hidden aspect-[419/439] bg-gray-300">
             <img src={imgGaelMaio24611} alt="Interior do Gael" className="w-full h-full object-cover" />
           </div>
-          <div className="rounded-[2rem] overflow-hidden aspect-[4/3] bg-gray-300">
+          <div className="rounded-[2.5rem] overflow-hidden aspect-[681/581] bg-gray-300">
             <img src={imgAmbientesMgl90352} alt="Ambiente Gael" className="w-full h-full object-cover" />
           </div>
-          <div className="rounded-[2rem] overflow-hidden aspect-[4/3] bg-gray-300">
+          <div className="rounded-[2.5rem] overflow-hidden aspect-[414/559] bg-gray-300">
             <img src={imgAmbientesMgl90951} alt="Ambiente Gael" className="w-full h-full object-cover" />
           </div>
         </div>

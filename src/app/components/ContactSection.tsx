@@ -1,17 +1,36 @@
-// import imgRectangle3 from "figma:asset/2652d39d1070a50d42015155a64100e6eef9b7b6.png";
+import svgPaths from "../../imports/svg-oj8mr5v7qc";
 
 export function ContactSection() {
   return (
     <section id="contato" className="bg-[#f5e6dd] relative py-20 md:py-28 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
+
+      {/* Bicycle sketch — right of address/hours, like Figma */}
+      <div className="absolute right-0 top-0 pointer-events-none opacity-90 hidden lg:block"
+        style={{ width: "clamp(280px,44vw,620px)", transform: "translateX(6%) rotate(9.4deg)" }}>
+        <svg viewBox="0 0 693.652 368.426" fill="none" className="w-full">
+          <g clipPath="url(#contact-bike-clip)">
+            <path d={svgPaths.p10d35300} fill="black" />
+            <path d={svgPaths.p39deba00} fill="black" />
+            <path d={svgPaths.p3ff04340} fill="black" />
+          </g>
+          <defs>
+            <clipPath id="contact-bike-clip">
+              <rect fill="white" height="368.426" width="693.652" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 mb-16">
           <div>
             <h3
               className="text-[#1e1e1e] mb-4 uppercase"
               style={{
                 fontFamily: "'Maca'",
-                fontSize: "clamp(2rem, 5vw, 4rem)",
+                fontSize: "clamp(2rem, 4.8vw, 4.35rem)",
                 fontWeight: 700,
+                lineHeight: 0.75,
               }}
             >
               Endereço
@@ -34,8 +53,9 @@ export function ContactSection() {
               className="text-[#1e1e1e] mb-4 uppercase"
               style={{
                 fontFamily: "'Maca'",
-                fontSize: "clamp(2rem, 5vw, 4rem)",
+                fontSize: "clamp(2rem, 4.8vw, 4.35rem)",
                 fontWeight: 700,
+                lineHeight: 0.75,
               }}
             >
               Horários
@@ -54,7 +74,7 @@ export function ContactSection() {
           </div>
         </div>
 
-        <div className="rounded-[2rem] overflow-hidden w-full aspect-[16/7] shadow-md">
+        <div className="rounded-[2rem] overflow-hidden w-full aspect-[1320/458] shadow-md">
           <iframe
             title="Localização Gael Restaurante"
             src="https://www.google.com/maps?q=Rua+Ferreira+de+Araújo,+320,+Pinheiros,+São+Paulo,+SP,+Brasil&output=embed"
