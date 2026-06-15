@@ -26,8 +26,10 @@ export function Hero() {
         </h1>
 
         <div className="mt-12 flex flex-col items-center gap-2">
-          <button
-            onClick={() => scrollTo("contato")}
+          <a
+            href="https://linktr.ee/GaelCozinhaMestica"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white uppercase tracking-widest hover:opacity-70 transition-opacity"
             style={{
               fontFamily: "'Maca'",
@@ -36,7 +38,7 @@ export function Hero() {
             }}
           >
             Peça pelo Delivery
-          </button>
+          </a>
           <div className="h-px w-52 bg-white opacity-80" />
         </div>
       </div>

@@ -182,12 +182,17 @@ export function CozinhaSection() {
               cozinha mestiça: não descendemos de nenhum lugar. Temos o compromisso de servir um
               belo, apetitoso e generoso prato de onde quer que esteja sua origem.
             </p>
-            <div className="flex flex-col items-start gap-1">
+            <a
+              href="https://linktr.ee/GaelCozinhaMestica"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-col items-start gap-1 hover:opacity-70 transition-opacity"
+            >
               <span className="text-black uppercase" style={macaSubheading}>
                 Confira o nosso cardápio
               </span>
               <div className="h-px w-72 bg-black" />
-            </div>
+            </a>
           </div>
         </div>
 

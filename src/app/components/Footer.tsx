@@ -63,13 +63,15 @@ export function Footer() {
           </nav>
 
           <div className="flex flex-col gap-10 lg:gap-20">
-            <button
-              onClick={() => scrollTo("contato")}
+            <a
+              href="https://linktr.ee/GaelCozinhaMestica"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-white uppercase hover:opacity-70 transition-opacity text-left"
               style={macaNav}
             >
               Peça pelo Delivery
-            </button>
+            </a>
             <div>
               <p className="text-white uppercase mb-3" style={macaNav}>Endereço</p>
               <p className="text-white leading-snug" style={gothamBodyLg}>
