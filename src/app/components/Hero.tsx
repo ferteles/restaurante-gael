@@ -1,6 +1,6 @@
 import { scrollTo } from "../../utils/scroll";
 
-const imgAmbientes17 = "/images/figma/imgAmbientes17.png";
+const imgAmbientes17 = "/images/figma/imgAmbientes17.webp";
 
 export function Hero() {
   return (
@@ -45,3 +45,4 @@ export function Hero() {
     </section>
   );
 }
+

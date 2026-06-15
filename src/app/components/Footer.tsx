@@ -2,7 +2,7 @@ import svgPaths from "../../imports/svgPaths";
 import { scrollTo } from "../../utils/scroll";
 import { macaNav, gothamBodyLg } from "../../styles/typography";
 
-const imgAmbientesMgl90352 = "/images/figma/imgAmbientesMgl90352.png";
+const imgAmbientesMgl90352 = "/images/figma/imgAmbientesMgl90352.webp";
 
 export function Footer() {
   return (
@@ -90,7 +90,7 @@ export function Footer() {
 
         <div className="mt-16 pt-8 border-t border-white/20">
           <p className="text-white/50 text-center" style={{ fontFamily: "'Gotham'", fontSize: "0.78rem" }}>
-            © {new Date().getFullYear()} Gael Restaurante — Pinheiros, São Paulo — por{" "}
+            © {new Date().getFullYear()} Gael Restaurante � Pinheiros, São Paulo � por{" "}
             <a
               href="https://tauatech.com"
               target="_blank"
@@ -105,3 +105,4 @@ export function Footer() {
     </footer>
   );
 }
+

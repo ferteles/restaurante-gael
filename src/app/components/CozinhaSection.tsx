@@ -1,29 +1,29 @@
 import svgPaths from "../../imports/svgPaths";
 import { macaHeading, macaSubheading, gothamBody } from "../../styles/typography";
 
-const imgPizzas1971 = "/images/figma/imgPizzas1971.png";
-const imgSushi1 = "/images/figma/imgSushi1.png";
-const imgUramakiCaliforniaMenu1 = "/images/figma/imgUramakiCaliforniaMenu1.png";
-const imgMassasCardapio541 = "/images/figma/imgMassasCardapio541.png";
-const imgCarpaccioMenu661 = "/images/figma/imgCarpaccioMenu661.png";
-const imgCevicheDeSalmaoComManga1 = "/images/figma/imgCevicheDeSalmaoComManga1.png";
-const imgEntradasMenu711 = "/images/figma/imgEntradasMenu711.png";
-const imgPeixesCardapio501 = "/images/figma/imgPeixesCardapio501.png";
-const imgMousseDeChocolatePadocaGael1 = "/images/figma/imgMousseDeChocolatePadocaGael1.png";
-const imgFraldinha2 = "/images/figma/imgFraldinha2.png";
+const imgPizzas1971 = "/images/figma/imgPizzas1971.webp";
+const imgSushi1 = "/images/figma/imgSushi1.webp";
+const imgUramakiCaliforniaMenu1 = "/images/figma/imgUramakiCaliforniaMenu1.webp";
+const imgMassasCardapio541 = "/images/figma/imgMassasCardapio541.webp";
+const imgCarpaccioMenu661 = "/images/figma/imgCarpaccioMenu661.webp";
+const imgCevicheDeSalmaoComManga1 = "/images/figma/imgCevicheDeSalmaoComManga1.webp";
+const imgEntradasMenu711 = "/images/figma/imgEntradasMenu711.webp";
+const imgPeixesCardapio501 = "/images/figma/imgPeixesCardapio501.webp";
+const imgMousseDeChocolatePadocaGael1 = "/images/figma/imgMousseDeChocolatePadocaGael1.webp";
+const imgFraldinha2 = "/images/figma/imgFraldinha2.webp";
 const decoProposito = "/images/figma/decoProposito.svg";
 
 export function CozinhaSection() {
   return (
     <section id="nosso-proposito" className="bg-[#f5e6dd] relative overflow-hidden py-24 md:py-36">
 
-      {/* Sketch — above the title, center */}
+      {/* Sketch � above the title, center */}
       <div className="absolute pointer-events-none hidden lg:block"
         style={{ left: "45%", top: "0", width: "clamp(140px,16.4vw,236px)", transform: "rotate(11.45deg) scaleY(-1)" }}>
         <img src={decoProposito} alt="" className="w-full" />
       </div>
 
-      {/* Thin decoration — right edge, beside the text */}
+      {/* Thin decoration � right edge, beside the text */}
       <div className="absolute right-0 w-[clamp(60px,9vw,130px)] pointer-events-none opacity-90 hidden lg:block"
         style={{ top: "clamp(10px,3vw,50px)", transform: "translateX(30%) rotate(-140.45deg)" }}>
         <svg viewBox="0 0 133.956 380.102" fill="none" className="w-full">
@@ -38,7 +38,7 @@ export function CozinhaSection() {
         </svg>
       </div>
 
-      {/* Leaf — bottom left */}
+      {/* Leaf � bottom left */}
       <div className="absolute left-4 pointer-events-none opacity-90 hidden lg:block"
         style={{ top: "clamp(760px,78vw,1125px)", width: "clamp(120px,18vw,260px)" }}>
         <svg viewBox="0 0 306 169" fill="none" className="w-full">
@@ -71,7 +71,7 @@ export function CozinhaSection() {
         </svg>
       </div>
 
-      {/* Very large floral — behind the menu photo grid */}
+      {/* Very large floral � behind the menu photo grid */}
       <div className="absolute pointer-events-none hidden lg:block"
         style={{ left: "22%", top: "clamp(750px,80vw,1150px)", width: "clamp(600px,90vw,1300px)", transform: "scaleY(-1) rotate(11.45deg)" }}>
         <svg viewBox="0 0 1107.06 1069.21" fill="none" className="w-full">
@@ -86,7 +86,7 @@ export function CozinhaSection() {
         </svg>
       </div>
 
-      {/* Ladle — bottom left, beside the wide photo */}
+      {/* Ladle � bottom left, beside the wide photo */}
       <div className="absolute left-0 bottom-0 pointer-events-none opacity-90 hidden lg:block"
         style={{ width: "clamp(160px,30vw,440px)", transform: "translateX(-28%) scaleY(-1) rotate(-91.24deg)" }}>
         <svg viewBox="0 0 441.716 426.615" fill="none" className="w-full">
@@ -101,7 +101,7 @@ export function CozinhaSection() {
         </svg>
       </div>
 
-      {/* Pepper branch — bottom right, beside the wide photo */}
+      {/* Pepper branch � bottom right, beside the wide photo */}
       <div className="absolute right-0 bottom-0 pointer-events-none opacity-90 hidden lg:block"
         style={{ width: "clamp(100px,17vw,250px)", transform: "translateX(20%) rotate(-146.37deg)" }}>
         <svg viewBox="0 0 250.908 711.951" fill="none" className="w-full">
@@ -125,7 +125,7 @@ export function CozinhaSection() {
         </h2>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-20 mb-16 items-start">
-          {/* Cooking pot illustration — fills the left column, like the Figma layout */}
+          {/* Cooking pot illustration � fills the left column, like the Figma layout */}
           <div className="hidden lg:block lg:flex-1">
             <div className="w-full max-w-[620px]" style={{ marginLeft: "-12%", transform: "scaleY(-1) rotate(180deg)" }}>
               <svg viewBox="0 0 723 630" fill="none" className="w-full">
@@ -239,3 +239,4 @@ export function CozinhaSection() {
     </section>
   );
 }
+

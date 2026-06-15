@@ -1,12 +1,12 @@
 import svgPaths from "../../imports/svgPaths";
 import { macaHeading, gothamBody } from "../../styles/typography";
 
-const imgAmbientesMgl89971 = "/images/figma/imgAmbientesMgl89971.png";
-const imgAmbientesMgl90921 = "/images/figma/imgAmbientesMgl90921.png";
-const imgAmbientes161 = "/images/figma/imgAmbientes161.png";
-const imgAmbientesMgl90101 = "/images/figma/imgAmbientesMgl90101.png";
-const imgAmbientesMgl90221 = "/images/figma/imgAmbientesMgl90221.png";
-const imgAmbientesMgl90721 = "/images/figma/imgAmbientesMgl90721.png";
+const imgAmbientesMgl89971 = "/images/figma/imgAmbientesMgl89971.webp";
+const imgAmbientesMgl90921 = "/images/figma/imgAmbientesMgl90921.webp";
+const imgAmbientes161 = "/images/figma/imgAmbientes161.webp";
+const imgAmbientesMgl90101 = "/images/figma/imgAmbientesMgl90101.webp";
+const imgAmbientesMgl90221 = "/images/figma/imgAmbientesMgl90221.webp";
+const imgAmbientesMgl90721 = "/images/figma/imgAmbientesMgl90721.webp";
 
 export function CasaSection() {
   return (
@@ -97,3 +97,4 @@ export function CasaSection() {
     </section>
   );
 }
+

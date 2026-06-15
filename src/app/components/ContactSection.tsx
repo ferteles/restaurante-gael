@@ -1,4 +1,4 @@
-import svgPaths from "../../imports/svgPaths";
+﻿import svgPaths from "../../imports/svgPaths";
 import { macaHeadingMd, gothamBody } from "../../styles/typography";
 
 export function ContactSection() {
@@ -6,7 +6,7 @@ export function ContactSection() {
     <section id="contato" className="bg-[#f5e6dd] relative py-20 md:py-28 overflow-hidden">
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-        {/* Tomato-branch sketch — sticks out to the right of the content, like Figma */}
+        {/* Tomato-branch sketch â€” sticks out to the right of the content, like Figma */}
         <div className="absolute -z-10 right-0 -top-6 pointer-events-none opacity-90 hidden lg:block"
           style={{ width: "clamp(260px,36vw,500px)", transform: "translateX(58%) rotate(9.4deg)" }}>
           <svg viewBox="0 0 693.652 368.426" fill="none" className="w-full">
@@ -28,15 +28,15 @@ export function ContactSection() {
               className="text-[#1e1e1e] mb-4 uppercase"
               style={macaHeadingMd}
             >
-              Endereço
+              EndereÃ§o
             </h3>
             <p
               className="text-black leading-relaxed"
               style={gothamBody}
             >
-              Rua Ferreira de Araújo, 320 e 322
+              Rua Ferreira de AraÃºjo, 320 e 322
               <br />
-              Pinheiros, São Paulo, SP
+              Pinheiros, SÃ£o Paulo, SP
             </p>
           </div>
 
@@ -45,23 +45,23 @@ export function ContactSection() {
               className="text-[#1e1e1e] mb-4 uppercase"
               style={macaHeadingMd}
             >
-              Horários
+              HorÃ¡rios
             </h3>
             <p
               className="text-black leading-relaxed"
               style={gothamBody}
             >
-              Segunda a sexta: 7h às 23h
+              Segunda a sexta: 7h Ã s 23h
               <br />
-              Sábados, domingos e feriados: 7h às 22h
+              SÃ¡bados, domingos e feriados: 7h Ã s 22h
             </p>
           </div>
         </div>
 
         <div className="rounded-[2rem] overflow-hidden w-full aspect-[1320/458] shadow-md">
           <iframe
-            title="Localização Gael Restaurante"
-            src="https://www.google.com/maps?q=Rua+Ferreira+de+Araújo,+320,+Pinheiros,+São+Paulo,+SP,+Brasil&output=embed"
+            title="LocalizaÃ§Ã£o Gael Restaurante"
+            src="https://www.google.com/maps?q=Rua+Ferreira+de+AraÃºjo,+320,+Pinheiros,+SÃ£o+Paulo,+SP,+Brasil&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}
@@ -74,3 +74,4 @@ export function ContactSection() {
     </section>
   );
 }
+
