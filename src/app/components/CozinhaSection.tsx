@@ -15,11 +15,11 @@ const decoProposito = "/images/figma/decoProposito.svg";
 
 export function CozinhaSection() {
   return (
-    <section id="nosso-proposito" className="bg-[#f5e6dd] relative overflow-hidden py-24 md:py-36">
+    <section id="nosso-proposito" className="bg-[#f5e6dd] relative overflow-hidden pt-44 pb-24 md:py-36">
 
       {/* Sketch — above the title, center */}
-      <div className="absolute pointer-events-none hidden lg:block"
-        style={{ left: "45%", top: "0", width: "clamp(140px,16.4vw,236px)", transform: "rotate(11.45deg) scaleY(-1)" }}>
+      <div className="absolute pointer-events-none block"
+        style={{ left: "45%", top: "0", width: "clamp(58px,16.4vw,236px)", transform: "rotate(11.45deg) scaleY(-1)" }}>
         <img src={decoProposito} alt="" className="w-full" />
       </div>
 
@@ -87,8 +87,8 @@ export function CozinhaSection() {
       </div>
 
       {/* Ladle — bottom left, beside the wide photo */}
-      <div className="absolute left-0 bottom-0 pointer-events-none opacity-90 hidden lg:block"
-        style={{ width: "clamp(160px,30vw,440px)", transform: "translateX(-28%) scaleY(-1) rotate(-91.24deg)" }}>
+      <div className="absolute left-0 bottom-0 pointer-events-none opacity-90 block"
+        style={{ width: "clamp(110px,30vw,440px)", transform: "translateX(-28%) scaleY(-1) rotate(-91.24deg)" }}>
         <svg viewBox="0 0 441.716 426.615" fill="none" className="w-full">
           <g clipPath="url(#coz-ladle-clip)">
             <path d={svgPaths.p9656e40} fill="black" />
@@ -102,8 +102,8 @@ export function CozinhaSection() {
       </div>
 
       {/* Pepper branch — bottom right, beside the wide photo */}
-      <div className="absolute right-0 bottom-0 pointer-events-none opacity-90 hidden lg:block"
-        style={{ width: "clamp(100px,17vw,250px)", transform: "translateX(20%) rotate(-146.37deg)" }}>
+      <div className="absolute right-0 bottom-0 pointer-events-none opacity-90 block"
+        style={{ width: "clamp(70px,17vw,250px)", transform: "translateX(20%) rotate(-146.37deg)" }}>
         <svg viewBox="0 0 250.908 711.951" fill="none" className="w-full">
           <g clipPath="url(#coz-pepper-clip)">
             <path d={svgPaths.pb702200} fill="black" />

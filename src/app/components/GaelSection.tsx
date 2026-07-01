@@ -17,7 +17,7 @@ export function GaelSection() {
     <section id="jeito-gael" className="bg-[#f5e6dd] relative overflow-hidden">
 
       {/* Hand-drawn arrow — across the top, right below the hero */}
-      <div className="absolute left-[11%] top-0 w-[85%] pointer-events-none hidden md:block">
+      <div className="absolute left-[11%] top-4 md:top-0 w-[60%] md:w-[85%] pointer-events-none block">
         <img src={decoArrow} alt="" className="w-full" />
       </div>
 
@@ -176,8 +176,8 @@ export function GaelSection() {
       </div>
 
       {/* Large rotated plant SVG — bottom-left */}
-      <div className="absolute left-0 pointer-events-none opacity-90 hidden lg:block"
-        style={{ bottom: "-60px", width: "clamp(260px,42vw,580px)", transform: "translateX(-22%) rotate(57.79deg)" }}>
+      <div className="absolute left-0 pointer-events-none opacity-90 block"
+        style={{ bottom: "-60px", width: "clamp(150px,42vw,580px)", transform: "translateX(-22%) rotate(57.79deg)" }}>
         <svg viewBox="0 0 620.479 623.893" fill="none" className="w-full">
           <g clipPath="url(#gael-big-plant-clip)">
             <path d={svgPaths.p1ce1b9f2} fill="black" />
@@ -205,7 +205,7 @@ export function GaelSection() {
         </svg>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-24 md:py-36">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 pt-48 pb-24 md:py-36">
         <div className="flex lg:justify-end lg:mt-72 mb-20 md:mb-32 lg:mb-[28rem]">
           <p className="text-black leading-relaxed lg:max-w-md" style={gothamBody}>
             Somos um restaurante em Pinheiros, São Paulo pensado para fazer parte do dia. Um lugar

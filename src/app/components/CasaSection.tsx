@@ -13,8 +13,8 @@ export function CasaSection() {
     <section id="nossa-casa" className="bg-[#f5e6dd] relative overflow-hidden py-24 md:py-36">
 
       {/* Garlic left */}
-      <div className="absolute left-0 pointer-events-none opacity-90 hidden lg:block"
-        style={{ top: "clamp(260px,34vw,495px)", width: "clamp(70px,10vw,160px)", transform: "translateX(-30%) rotate(125.91deg)" }}>
+      <div className="absolute left-0 pointer-events-none opacity-90 block top-[490px] lg:top-[clamp(120px,34vw,495px)]"
+        style={{ width: "clamp(48px,10vw,160px)", transform: "translateX(-30%) rotate(125.91deg)" }}>
         <svg viewBox="0 0 195.885 555.823" fill="none" className="w-full">
           <g clipPath="url(#casa-garlic-left-clip)">
             <path d={svgPaths.p21c2c000} fill="black" />
@@ -28,8 +28,8 @@ export function CasaSection() {
       </div>
 
       {/* Garlic / vegetable right */}
-      <div className="absolute right-0 pointer-events-none opacity-90 hidden lg:block"
-        style={{ top: "clamp(280px,37vw,537px)", width: "clamp(80px,14vw,220px)", transform: "translateX(30%) rotate(-84.87deg)" }}>
+      <div className="absolute right-0 pointer-events-none opacity-90 block top-[490px] lg:top-[clamp(130px,37vw,537px)]"
+        style={{ width: "clamp(55px,14vw,220px)", transform: "translateX(30%) rotate(-84.87deg)" }}>
         <svg viewBox="0 0 315.946 563.889" fill="none" className="w-full">
           <g clipPath="url(#casa-garlic-right-clip)">
             <path d={svgPaths.pddf8740} fill="black" />
