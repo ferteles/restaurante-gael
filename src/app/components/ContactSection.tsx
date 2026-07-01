@@ -58,7 +58,7 @@ export function ContactSection() {
           </div>
         </div>
 
-        <div className="rounded-[2rem] overflow-hidden w-full aspect-[1320/458] shadow-md">
+        <div className="rounded-[2rem] overflow-hidden w-full aspect-[1320/458] min-h-[320px] md:min-h-0 shadow-md">
           <iframe
             title="Localização Gael Restaurante"
             src="https://www.google.com/maps?q=Rua+Ferreira+de+Araújo,+320,+Pinheiros,+São+Paulo,+SP,+Brasil&output=embed"
