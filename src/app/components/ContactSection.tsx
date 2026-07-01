@@ -6,7 +6,7 @@ export function ContactSection() {
     <section id="contato" className="bg-[#f5e6dd] relative py-20 md:py-28 overflow-hidden">
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-        {/* Tomato-branch sketch � sticks out to the right of the content, like Figma */}
+        {/* Tomato-branch sketch — sticks out to the right of the content, like Figma */}
         <div className="absolute -z-10 right-0 -top-6 pointer-events-none opacity-90 hidden lg:block"
           style={{ width: "clamp(260px,36vw,500px)", transform: "translateX(58%) rotate(9.4deg)" }}>
           <svg viewBox="0 0 693.652 368.426" fill="none" className="w-full">

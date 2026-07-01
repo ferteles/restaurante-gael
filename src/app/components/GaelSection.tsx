@@ -16,42 +16,42 @@ export function GaelSection() {
   return (
     <section id="jeito-gael" className="bg-[#f5e6dd] relative overflow-hidden">
 
-      {/* Hand-drawn arrow � across the top, right below the hero */}
+      {/* Hand-drawn arrow — across the top, right below the hero */}
       <div className="absolute left-[11%] top-0 w-[85%] pointer-events-none hidden md:block">
         <img src={decoArrow} alt="" className="w-full" />
       </div>
 
-      {/* Sketch � top left edge */}
+      {/* Sketch — top left edge */}
       <div className="absolute left-0 pointer-events-none hidden lg:block"
         style={{ top: "clamp(60px,9vw,125px)", width: "clamp(130px,17.5vw,252px)", transform: "translateX(-38%)" }}>
         <img src={decoGaelTopLeft} alt="" className="w-full" />
       </div>
 
-      {/* Sketch � top center-left, rotated */}
+      {/* Sketch — top center-left, rotated */}
       <div className="absolute pointer-events-none hidden lg:block"
         style={{ left: "33%", top: "clamp(60px,8vw,117px)", width: "clamp(100px,12.2vw,176px)", transform: "rotate(72.82deg) scaleY(-1)" }}>
         <img src={decoGaelTopCenter} alt="" className="w-full" />
       </div>
 
-      {/* Sketch � top right edge */}
+      {/* Sketch — top right edge */}
       <div className="absolute right-0 pointer-events-none hidden lg:block"
         style={{ top: "clamp(50px,7.6vw,110px)", width: "clamp(150px,21.5vw,309px)", transform: "translateX(15%)" }}>
         <img src={decoGaelTopRight} alt="" className="w-full" />
       </div>
 
-      {/* Sketch � left edge, mid section, rotated */}
+      {/* Sketch — left edge, mid section, rotated */}
       <div className="absolute left-0 pointer-events-none hidden lg:block"
         style={{ top: "clamp(380px,49vw,709px)", width: "clamp(110px,13.8vw,199px)", transform: "translateX(-25%) rotate(72.82deg) scaleY(-1)" }}>
         <img src={decoGaelMidLeft} alt="" className="w-full" />
       </div>
 
-      {/* Sketch � center-left, mid section */}
+      {/* Sketch — center-left, mid section */}
       <div className="absolute pointer-events-none hidden lg:block"
         style={{ left: "32%", top: "clamp(420px,55vw,798px)", width: "clamp(120px,16vw,232px)" }}>
         <img src={decoGaelMidCenter} alt="" className="w-full" />
       </div>
 
-      {/* Bread / basket illustration � left */}
+      {/* Bread / basket illustration — left */}
       <div className="absolute left-0 top-[clamp(120px,20vw,298px)] w-[clamp(260px,38vw,520px)] pointer-events-none opacity-90 hidden md:block" style={{ transform: "translateX(-18%)" }}>
         <svg viewBox="0 0 702 488" fill="none" className="w-full">
           <g clipPath="url(#gael-basket-clip)">
@@ -99,7 +99,7 @@ export function GaelSection() {
         </svg>
       </div>
 
-      {/* Vine / fish SVG � right side, upper */}
+      {/* Vine / fish SVG — right side, upper */}
       <div className="absolute right-0 top-[clamp(300px,46vw,667px)] w-[clamp(220px,32vw,420px)] pointer-events-none opacity-90 hidden lg:block" style={{ transform: "translateX(10%)" }}>
         <svg viewBox="0 0 600 318" fill="none" className="w-full">
           <g clipPath="url(#gael-vine-clip)">
@@ -115,7 +115,7 @@ export function GaelSection() {
         </svg>
       </div>
 
-      {/* Large plant/leaf SVG � left mid */}
+      {/* Large plant/leaf SVG — left mid */}
       <div className="absolute left-0 pointer-events-none opacity-90 hidden lg:block"
         style={{ top: "clamp(680px,94vw,1364px)", width: "clamp(220px,35vw,460px)", transform: "translateX(-18%)" }}>
         <svg viewBox="0 0 599 602" fill="none" className="w-full">
@@ -145,7 +145,7 @@ export function GaelSection() {
         </svg>
       </div>
 
-      {/* Large tree SVG � right mid */}
+      {/* Large tree SVG — right mid */}
       <div className="absolute right-0 pointer-events-none opacity-90 hidden lg:block"
         style={{ top: "clamp(820px,113vw,1641px)", width: "clamp(260px,40vw,560px)", transform: "translateX(12%)" }}>
         <svg viewBox="0 0 727 731" fill="none" className="w-full">
@@ -175,7 +175,7 @@ export function GaelSection() {
         </svg>
       </div>
 
-      {/* Large rotated plant SVG � bottom-left */}
+      {/* Large rotated plant SVG — bottom-left */}
       <div className="absolute left-0 pointer-events-none opacity-90 hidden lg:block"
         style={{ bottom: "-60px", width: "clamp(260px,42vw,580px)", transform: "translateX(-22%) rotate(57.79deg)" }}>
         <svg viewBox="0 0 620.479 623.893" fill="none" className="w-full">

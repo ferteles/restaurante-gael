@@ -47,19 +47,32 @@ export function Footer() {
           <nav className="flex flex-col gap-4 lg:gap-6">
             {[
               { label: "O jeito Gael", id: "jeito-gael" },
-              { label: "Cardápio", id: "nosso-proposito" },
+              { label: "Cardápio", href: "https://gael.alou.io/menu" },
               { label: "Ambiente", id: "nossa-casa" },
               { label: "Contato", id: "contato" },
-            ].map((item) => (
-              <button
-                key={item.id}
-                onClick={() => scrollTo(item.id)}
-                className="text-white uppercase text-left hover:opacity-70 transition-opacity"
-                style={macaNav}
-              >
-                {item.label}
-              </button>
-            ))}
+            ].map((item) =>
+              item.href ? (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white uppercase text-left hover:opacity-70 transition-opacity"
+                  style={macaNav}
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <button
+                  key={item.id}
+                  onClick={() => scrollTo(item.id)}
+                  className="text-white uppercase text-left hover:opacity-70 transition-opacity"
+                  style={macaNav}
+                >
+                  {item.label}
+                </button>
+              )
+            )}
           </nav>
 
           <div className="flex flex-col gap-10 lg:gap-20">
@@ -90,7 +103,7 @@ export function Footer() {
 
         <div className="mt-16 pt-8 border-t border-white/20">
           <p className="text-white/50 text-center" style={{ fontFamily: "'Gotham'", fontSize: "0.78rem" }}>
-            © {new Date().getFullYear()} Gael Restaurante � Pinheiros, São Paulo � por{" "}
+            © {new Date().getFullYear()} Gael Restaurante • Pinheiros, São Paulo • por{" "}
             <a
               href="https://tauatech.com"
               target="_blank"

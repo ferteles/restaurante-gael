@@ -17,13 +17,13 @@ export function CozinhaSection() {
   return (
     <section id="nosso-proposito" className="bg-[#f5e6dd] relative overflow-hidden py-24 md:py-36">
 
-      {/* Sketch � above the title, center */}
+      {/* Sketch — above the title, center */}
       <div className="absolute pointer-events-none hidden lg:block"
         style={{ left: "45%", top: "0", width: "clamp(140px,16.4vw,236px)", transform: "rotate(11.45deg) scaleY(-1)" }}>
         <img src={decoProposito} alt="" className="w-full" />
       </div>
 
-      {/* Thin decoration � right edge, beside the text */}
+      {/* Thin decoration — right edge, beside the text */}
       <div className="absolute right-0 w-[clamp(60px,9vw,130px)] pointer-events-none opacity-90 hidden lg:block"
         style={{ top: "clamp(10px,3vw,50px)", transform: "translateX(30%) rotate(-140.45deg)" }}>
         <svg viewBox="0 0 133.956 380.102" fill="none" className="w-full">
@@ -38,7 +38,7 @@ export function CozinhaSection() {
         </svg>
       </div>
 
-      {/* Leaf � bottom left */}
+      {/* Leaf — bottom left */}
       <div className="absolute left-4 pointer-events-none opacity-90 hidden lg:block"
         style={{ top: "clamp(760px,78vw,1125px)", width: "clamp(120px,18vw,260px)" }}>
         <svg viewBox="0 0 306 169" fill="none" className="w-full">
@@ -71,7 +71,7 @@ export function CozinhaSection() {
         </svg>
       </div>
 
-      {/* Very large floral � behind the menu photo grid */}
+      {/* Very large floral — behind the menu photo grid */}
       <div className="absolute pointer-events-none hidden lg:block"
         style={{ left: "22%", top: "clamp(750px,80vw,1150px)", width: "clamp(600px,90vw,1300px)", transform: "scaleY(-1) rotate(11.45deg)" }}>
         <svg viewBox="0 0 1107.06 1069.21" fill="none" className="w-full">
@@ -86,7 +86,7 @@ export function CozinhaSection() {
         </svg>
       </div>
 
-      {/* Ladle � bottom left, beside the wide photo */}
+      {/* Ladle — bottom left, beside the wide photo */}
       <div className="absolute left-0 bottom-0 pointer-events-none opacity-90 hidden lg:block"
         style={{ width: "clamp(160px,30vw,440px)", transform: "translateX(-28%) scaleY(-1) rotate(-91.24deg)" }}>
         <svg viewBox="0 0 441.716 426.615" fill="none" className="w-full">
@@ -101,7 +101,7 @@ export function CozinhaSection() {
         </svg>
       </div>
 
-      {/* Pepper branch � bottom right, beside the wide photo */}
+      {/* Pepper branch — bottom right, beside the wide photo */}
       <div className="absolute right-0 bottom-0 pointer-events-none opacity-90 hidden lg:block"
         style={{ width: "clamp(100px,17vw,250px)", transform: "translateX(20%) rotate(-146.37deg)" }}>
         <svg viewBox="0 0 250.908 711.951" fill="none" className="w-full">
@@ -125,7 +125,7 @@ export function CozinhaSection() {
         </h2>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-20 mb-16 items-start">
-          {/* Cooking pot illustration � fills the left column, like the Figma layout */}
+          {/* Cooking pot illustration — fills the left column, like the Figma layout */}
           <div className="hidden lg:block lg:flex-1">
             <div className="w-full max-w-[620px]" style={{ marginLeft: "-12%", transform: "scaleY(-1) rotate(180deg)" }}>
               <svg viewBox="0 0 723 630" fill="none" className="w-full">
@@ -183,7 +183,7 @@ export function CozinhaSection() {
               belo, apetitoso e generoso prato de onde quer que esteja sua origem.
             </p>
             <a
-              href="https://linktr.ee/GaelCozinhaMestica"
+              href="https://gael.alou.io/menu"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-start gap-1 hover:opacity-70 transition-opacity"
