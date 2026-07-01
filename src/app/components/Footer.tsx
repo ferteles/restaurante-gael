@@ -86,16 +86,16 @@ export function Footer() {
               Peça pelo Delivery
             </a>
             <div>
-              <p className="text-white uppercase mb-3" style={macaNav}>Endereço</p>
-              <p className="text-white leading-snug" style={gothamBodyLg}>
+              <p className="text-white uppercase mb-3" style={{ ...macaNav, fontSize: "clamp(0.9rem, 1.3vw, 1.5rem)" }}>Endereço</p>
+              <p className="text-white leading-snug" style={{ ...gothamBodyLg, fontSize: "clamp(0.8rem, 1.1vw, 1rem)" }}>
                 Rua Ferreira de Araújo, 320 e 322<br />Pinheiros, São Paulo, SP
               </p>
             </div>
           </div>
 
           <div className="lg:pt-[calc(clamp(1.1rem,1.8vw,2.5rem)+5rem)]">
-            <p className="text-white uppercase mb-3" style={macaNav}>Horários</p>
-            <p className="text-white leading-snug" style={gothamBodyLg}>
+            <p className="text-white uppercase mb-3" style={{ ...macaNav, fontSize: "clamp(0.9rem, 1.3vw, 1.5rem)" }}>Horários</p>
+            <p className="text-white leading-snug" style={{ ...gothamBodyLg, fontSize: "clamp(0.8rem, 1.1vw, 1rem)" }}>
               Seg à sexta: 7h às 23h<br />Sáb dom e feriados: 7h às 22h
             </p>
           </div>
