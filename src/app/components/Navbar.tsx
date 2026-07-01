@@ -40,7 +40,7 @@ export function Navbar() {
             onClick={() => navigateTo("nosso-proposito")}
             className={`font-['Maca'] text-[clamp(1.1rem,1.8vw,2rem)] uppercase tracking-normal ${textColor} hover:opacity-60 transition-all`}
           >
-            Nosso PropÃ³sito
+            Nosso Propósito
           </button>
         </div>
 
@@ -122,7 +122,7 @@ export function Navbar() {
         >
           {[
             { label: "O Jeito Gael", id: "jeito-gael" },
-            { label: "Nosso PropÃ³sito", id: "nosso-proposito" },
+            { label: "Nosso Propósito", id: "nosso-proposito" },
             { label: "Nossa Casa", id: "nossa-casa" },
             { label: "Contato", id: "contato" },
           ].map((item) => (

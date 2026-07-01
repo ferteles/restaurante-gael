@@ -1,10 +1,10 @@
 import svgPaths from "../../imports/svgPaths";
 import { macaHeading, gothamBody } from "../../styles/typography";
 
-const imgAmbientesMgl90521 = "/images/figma/imgAmbientesMgl90521.webp";
+const imgAmbiente16 = "/images/figma/imgAmbiente16.webp";
 const imgGaelMaio24611 = "/images/figma/imgGaelMaio24611.webp";
-const imgAmbientesMgl90352 = "/images/figma/imgAmbientesMgl90352.webp";
-const imgAmbientesMgl90951 = "/images/figma/imgAmbientesMgl90951.webp";
+const imgAmbiente18 = "/images/figma/imgAmbiente18.webp";
+const imgAmbiente20 = "/images/figma/imgAmbiente20.webp";
 const decoArrow = "/images/figma/decoArrow.svg";
 const decoGaelTopLeft = "/images/figma/decoGaelTopLeft.svg";
 const decoGaelTopCenter = "/images/figma/decoGaelTopCenter.svg";
@@ -239,16 +239,16 @@ export function GaelSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-[1.62fr_1fr] gap-5 items-start">
           <div className="rounded-[2.5rem] overflow-hidden aspect-[690/433] bg-gray-300">
-            <img src={imgAmbientesMgl90521} alt="Ambiente Gael" className="w-full h-full object-cover" />
+            <img src={imgAmbiente16} alt="Ambiente Gael" className="w-full h-full object-cover" />
           </div>
           <div className="rounded-[2.5rem] overflow-hidden aspect-[419/439] bg-gray-300">
             <img src={imgGaelMaio24611} alt="Interior do Gael" className="w-full h-full object-cover" />
           </div>
           <div className="rounded-[2.5rem] overflow-hidden aspect-[681/581] bg-gray-300">
-            <img src={imgAmbientesMgl90352} alt="Ambiente Gael" className="w-full h-full object-cover" />
+            <img src={imgAmbiente18} alt="Ambiente Gael" className="w-full h-full object-cover" />
           </div>
           <div className="rounded-[2.5rem] overflow-hidden aspect-[414/559] bg-gray-300">
-            <img src={imgAmbientesMgl90951} alt="Ambiente Gael" className="w-full h-full object-cover" />
+            <img src={imgAmbiente20} alt="Ambiente Gael" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>

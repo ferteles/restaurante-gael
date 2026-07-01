@@ -1,11 +1,11 @@
 import svgPaths from "../../imports/svgPaths";
 import { macaHeading, gothamBody } from "../../styles/typography";
 
-const imgAmbientesMgl89971 = "/images/figma/imgAmbientesMgl89971.webp";
+const imgAmbiente17 = "/images/figma/imgAmbiente17.webp";
 const imgAmbientesMgl90921 = "/images/figma/imgAmbientesMgl90921.webp";
 const imgAmbientes161 = "/images/figma/imgAmbientes161.webp";
 const imgAmbientesMgl90101 = "/images/figma/imgAmbientesMgl90101.webp";
-const imgAmbientesMgl90221 = "/images/figma/imgAmbientesMgl90221.webp";
+const imgAmbiente15 = "/images/figma/imgAmbiente15.webp";
 const imgAmbientesMgl90721 = "/images/figma/imgAmbientesMgl90721.webp";
 
 export function CasaSection() {
@@ -81,12 +81,12 @@ export function CasaSection() {
               <img src={imgAmbientesMgl90101} alt="Ambiente Gael" className="w-full h-full object-cover" />
             </div>
             <div className="rounded-[2.25rem] overflow-hidden aspect-[423/634] bg-gray-300">
-              <img src={imgAmbientesMgl90221} alt="Ambiente Gael" className="w-full h-full object-cover" />
+              <img src={imgAmbiente15} alt="Ambiente Gael" className="w-full h-full object-cover" />
             </div>
           </div>
           <div className="col-span-2 md:col-span-1 grid grid-cols-2 md:flex md:flex-col gap-4 md:gap-5">
             <div className="rounded-[2.5rem] overflow-hidden aspect-[427/700] bg-gray-300">
-              <img src={imgAmbientesMgl89971} alt="Ambiente Gael" className="w-full h-full object-cover" />
+              <img src={imgAmbiente17} alt="Ambiente Gael" className="w-full h-full object-cover" />
             </div>
             <div className="rounded-[2.25rem] overflow-hidden aspect-[428/410] bg-gray-300">
               <img src={imgAmbientesMgl90921} alt="Ambiente Gael" className="w-full h-full object-cover" />
